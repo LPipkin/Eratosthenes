@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		E4C4C0CF1C04E88800BB35EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4C0CE1C04E88800BB35EE /* main.m */; };
 		E4C4C0D21C04E88800BB35EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4C0D11C04E88800BB35EE /* AppDelegate.m */; };
-		E4C4C0D51C04E88800BB35EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4C0D41C04E88800BB35EE /* ViewController.m */; };
 		E4C4C0D81C04E88800BB35EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C4C0D61C04E88800BB35EE /* Main.storyboard */; };
 		E4C4C0DA1C04E88800BB35EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C4C0D91C04E88800BB35EE /* Assets.xcassets */; };
 		E4C4C0DD1C04E88800BB35EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C4C0DB1C04E88800BB35EE /* LaunchScreen.storyboard */; };
+		E4C4C0E51C04E8B600BB35EE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C4C0E41C04E8B600BB35EE /* libsqlite3.dylib */; };
+		E4C4C0E81C04E9A300BB35EE /* BookshelfDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4C0E71C04E9A300BB35EE /* BookshelfDetails.m */; };
+		E4C4C0EE1C04EB2200BB35EE /* NightstandDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4C0ED1C04EB2200BB35EE /* NightstandDetails.m */; };
+		E4C4C0F11C04EBB100BB35EE /* Librarian.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4C0F01C04EBB100BB35EE /* Librarian.m */; };
+		E4C4C0F41C04EBD900BB35EE /* LookUp.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4C0F31C04EBD900BB35EE /* LookUp.m */; };
+		E4C4C0FA1C04F18A00BB35EE /* Nightstand.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4C0F91C04F18A00BB35EE /* Nightstand.m */; };
+		E4C4C0FD1C04F1E800BB35EE /* Bookshelf.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4C0FC1C04F1E800BB35EE /* Bookshelf.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,23 @@
 		E4C4C0CE1C04E88800BB35EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4C4C0D01C04E88800BB35EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4C4C0D11C04E88800BB35EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4C4C0D31C04E88800BB35EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E4C4C0D41C04E88800BB35EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E4C4C0D71C04E88800BB35EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4C4C0D91C04E88800BB35EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4C4C0DC1C04E88800BB35EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4C4C0DE1C04E88800BB35EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C4C0E41C04E8B600BB35EE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		E4C4C0E61C04E9A300BB35EE /* BookshelfDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookshelfDetails.h; sourceTree = "<group>"; };
+		E4C4C0E71C04E9A300BB35EE /* BookshelfDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookshelfDetails.m; sourceTree = "<group>"; };
+		E4C4C0EC1C04EB2200BB35EE /* NightstandDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NightstandDetails.h; sourceTree = "<group>"; };
+		E4C4C0ED1C04EB2200BB35EE /* NightstandDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NightstandDetails.m; sourceTree = "<group>"; };
+		E4C4C0EF1C04EBB100BB35EE /* Librarian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Librarian.h; sourceTree = "<group>"; };
+		E4C4C0F01C04EBB100BB35EE /* Librarian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Librarian.m; sourceTree = "<group>"; };
+		E4C4C0F21C04EBD900BB35EE /* LookUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LookUp.h; path = ../LookUp.h; sourceTree = "<group>"; };
+		E4C4C0F31C04EBD900BB35EE /* LookUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LookUp.m; path = ../LookUp.m; sourceTree = "<group>"; };
+		E4C4C0F81C04F18A00BB35EE /* Nightstand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nightstand.h; sourceTree = "<group>"; };
+		E4C4C0F91C04F18A00BB35EE /* Nightstand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nightstand.m; sourceTree = "<group>"; };
+		E4C4C0FB1C04F1E800BB35EE /* Bookshelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookshelf.h; sourceTree = "<group>"; };
+		E4C4C0FC1C04F1E800BB35EE /* Bookshelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bookshelf.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C4C0E51C04E8B600BB35EE /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,7 @@
 		E4C4C0C11C04E88800BB35EE = {
 			isa = PBXGroup;
 			children = (
+				E4C4C0E41C04E8B600BB35EE /* libsqlite3.dylib */,
 				E4C4C0CC1C04E88800BB35EE /* Eratosthenes */,
 				E4C4C0CB1C04E88800BB35EE /* Products */,
 			);
@@ -60,8 +79,18 @@
 			children = (
 				E4C4C0D01C04E88800BB35EE /* AppDelegate.h */,
 				E4C4C0D11C04E88800BB35EE /* AppDelegate.m */,
-				E4C4C0D31C04E88800BB35EE /* ViewController.h */,
-				E4C4C0D41C04E88800BB35EE /* ViewController.m */,
+				E4C4C0FB1C04F1E800BB35EE /* Bookshelf.h */,
+				E4C4C0FC1C04F1E800BB35EE /* Bookshelf.m */,
+				E4C4C0E61C04E9A300BB35EE /* BookshelfDetails.h */,
+				E4C4C0E71C04E9A300BB35EE /* BookshelfDetails.m */,
+				E4C4C0F81C04F18A00BB35EE /* Nightstand.h */,
+				E4C4C0F91C04F18A00BB35EE /* Nightstand.m */,
+				E4C4C0EC1C04EB2200BB35EE /* NightstandDetails.h */,
+				E4C4C0ED1C04EB2200BB35EE /* NightstandDetails.m */,
+				E4C4C0F21C04EBD900BB35EE /* LookUp.h */,
+				E4C4C0F31C04EBD900BB35EE /* LookUp.m */,
+				E4C4C0EF1C04EBB100BB35EE /* Librarian.h */,
+				E4C4C0F01C04EBB100BB35EE /* Librarian.m */,
 				E4C4C0D61C04E88800BB35EE /* Main.storyboard */,
 				E4C4C0D91C04E88800BB35EE /* Assets.xcassets */,
 				E4C4C0DB1C04E88800BB35EE /* LaunchScreen.storyboard */,
@@ -149,8 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C4C0D51C04E88800BB35EE /* ViewController.m in Sources */,
+				E4C4C0E81C04E9A300BB35EE /* BookshelfDetails.m in Sources */,
+				E4C4C0EE1C04EB2200BB35EE /* NightstandDetails.m in Sources */,
+				E4C4C0FA1C04F18A00BB35EE /* Nightstand.m in Sources */,
+				E4C4C0FD1C04F1E800BB35EE /* Bookshelf.m in Sources */,
 				E4C4C0D21C04E88800BB35EE /* AppDelegate.m in Sources */,
+				E4C4C0F41C04EBD900BB35EE /* LookUp.m in Sources */,
+				E4C4C0F11C04EBB100BB35EE /* Librarian.m in Sources */,
 				E4C4C0CF1C04E88800BB35EE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
