@@ -31,6 +31,9 @@
                         </prototypes>
                     </tableView>
                     <navigationItem key="navigationItem" id="vtN-Sg-XeF"/>
+                    <connections>
+                        <outlet property="shelfTable" destination="F8M-mX-PNH" id="iu3-h2-FHq"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j2p-8o-DnQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -82,6 +85,15 @@
                     <view key="view" contentMode="scaleToFill" id="vW7-Oh-0vz">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fup-Ua-r6I">
+                                <rect key="frame" x="295" y="28" width="10" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -101,6 +113,15 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWh-5l-OvW">
+                                <rect key="frame" x="296" y="28" width="8" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -113,7 +134,7 @@
         <scene sceneID="sKX-GN-bOI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3Vg-LI-G3j" userLabel="Shelf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Shelf" id="REy-pD-Fyr" userLabel="Shelf"/>
+                    <tabBarItem key="tabBarItem" title="Shelf" image="globe.png" id="REy-pD-Fyr" userLabel="Shelf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JQ3-ly-02y">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -133,7 +154,7 @@
         <scene sceneID="jPi-3E-vr3">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="onx-1H-2fX" userLabel="Table" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Table" id="X4I-2T-ALJ" userLabel="Table"/>
+                    <tabBarItem key="tabBarItem" title="Table" image="bow-and-arrow.png" id="X4I-2T-ALJ" userLabel="Table"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ITK-JC-4qk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -160,10 +181,19 @@
                     <view key="view" contentMode="scaleToFill" id="tfj-aL-mKe">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sH4-Fv-ROn">
+                                <rect key="frame" x="295" y="28" width="11" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="LookUp" id="sYH-Hr-Nal"/>
+                    <tabBarItem key="tabBarItem" title="LookUp" image="door.png" id="sYH-Hr-Nal"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9un-wL-YoT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -190,4 +220,9 @@
             <point key="canvasLocation" x="755" y="1212"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bow-and-arrow.png" width="22" height="28"/>
+        <image name="door.png" width="20" height="28"/>
+        <image name="globe.png" width="28" height="28"/>
+    </resources>
 </document>

@@ -12,4 +12,6 @@
 
 @interface Bookshelf : UITableViewController
 
+@property (strong, nonatomic) IBOutlet UITableView *shelfTable;
+
 @end
