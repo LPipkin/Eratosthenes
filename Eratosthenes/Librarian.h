@@ -11,10 +11,15 @@
 
 @interface Librarian : NSObject
 
+
+-(int) delete:(NSString *) filePath withLName:(NSString *) isbn;
+-(int) insert:(NSString *)filePath withDict:(NSDictionary *)book;
+-(NSArray *) getRecords:(NSString*) filePath where:(NSString *)whereStmt;
+/*
 @property (nonatomic, strong) NSMutableArray *arrColumnNames;
 @property (nonatomic) int affectedRows;
 @property (nonatomic) long long lastInsertedRowID;
 
 -(instancetype)initWithDatabaseFilename:(NSString *)userLibrary;
-
+*/
 @end

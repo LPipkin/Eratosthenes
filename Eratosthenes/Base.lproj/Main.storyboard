@@ -74,6 +74,54 @@
             </objects>
             <point key="canvasLocation" x="2379" y="1207"/>
         </scene>
+        <!--LookUp-->
+        <scene sceneID="Roh-2T-gUC">
+            <objects>
+                <viewController id="ZK0-J4-pvq" customClass="ScanView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zvw-Zh-Ipb"/>
+                        <viewControllerLayoutGuide type="bottom" id="1hG-hE-85f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rfl-cP-wbU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNT-NM-aFw">
+                                <rect key="frame" x="225" y="512" width="130" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.3411764706" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Start Scanning">
+                                    <color key="titleColor" red="0.47187840310000001" green="1" blue="0.74518353510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teK-GP-yLh">
+                                <rect key="frame" x="269" y="483" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ldr-dp-GhZ">
+                                <rect key="frame" x="20" y="28" width="240" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.054901960784313725" green="0.43137254901960786" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="LookUp" image="door.png" id="6zD-da-Tuc"/>
+                    <connections>
+                        <outlet property="barcodeLable" destination="teK-GP-yLh" id="JS6-FP-ddD"/>
+                        <outlet property="previewView" destination="ldr-dp-GhZ" id="f8Z-t0-hil"/>
+                        <outlet property="toggleScanningButton" destination="jNT-NM-aFw" id="ufg-Bh-wh0"/>
+                        <segue destination="6Ne-Nt-TfG" kind="showDetail" id="7SG-2i-uri"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mga-iC-ObA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1567" y="1988"/>
+        </scene>
         <!--Nightstand Details-->
         <scene sceneID="1GO-YM-zM8">
             <objects>
@@ -90,7 +138,7 @@
                                 <rect key="frame" x="295" y="28" width="10" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -118,7 +166,7 @@
                                 <rect key="frame" x="296" y="28" width="8" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -182,22 +230,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sH4-Fv-ROn">
-                                <rect key="frame" x="295" y="28" width="11" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4H-Te-L91">
+                                <rect key="frame" x="235" y="550" width="130" height="30"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" red="0.1215686275" green="0.3411764706" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Scan a Barcode">
+                                    <color key="titleColor" red="0.47187840310000001" green="1" blue="0.74518353510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63S-0m-bVk">
+                                <rect key="frame" x="97" y="550" width="130" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.3411764706" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Add to Shelf">
+                                    <color key="titleColor" red="0.47187840310000001" green="1" blue="0.74518353510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addBook:" destination="6Ne-Nt-TfG" eventType="touchUpInside" id="gpd-gi-SQa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vC5-Up-M65">
+                                <rect key="frame" x="373" y="550" width="130" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.3411764706" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Add to Table">
+                                    <color key="titleColor" red="0.47187840310000001" green="1" blue="0.74518353510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addBook:" destination="6Ne-Nt-TfG" eventType="touchUpInside" id="bmI-Gi-FGt"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d6T-C4-yE3">
+                                <rect key="frame" x="20" y="28" width="240" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="LookUp" image="door.png" id="sYH-Hr-Nal"/>
+                    <connections>
+                        <outlet property="addBook" destination="vC5-Up-M65" id="gP6-QC-nke"/>
+                        <outlet property="bookPreview" destination="d6T-C4-yE3" id="dNa-3l-0SQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9un-wL-YoT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1567" y="1985"/>
+            <point key="canvasLocation" x="2379" y="1988"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="N7F-NO-0Hj">
@@ -212,12 +292,12 @@
                     <connections>
                         <segue destination="3Vg-LI-G3j" kind="relationship" relationship="viewControllers" id="syA-ac-bLj"/>
                         <segue destination="onx-1H-2fX" kind="relationship" relationship="viewControllers" id="Amw-Vg-1Wl"/>
-                        <segue destination="6Ne-Nt-TfG" kind="relationship" relationship="viewControllers" id="309-zR-Qam"/>
+                        <segue destination="ZK0-J4-pvq" kind="relationship" relationship="viewControllers" id="G6b-s2-GYa"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rqn-9l-rMs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="755" y="1212"/>
+            <point key="canvasLocation" x="799" y="1207"/>
         </scene>
     </scenes>
     <resources>
