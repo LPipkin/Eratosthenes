@@ -9,19 +9,43 @@
 #import "BookshelfDetails.h"
 
 @interface BookshelfDetails ()
+@property (weak, nonatomic) IBOutlet UITextView *field;
 
 @end
 
 @implementation BookshelfDetails
 
+@synthesize field = _field;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.field.text = [self stringOutputForDictionary:self.novel];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSString *)stringOutputForDictionary:(NSDictionary *)inputDict {
+    NSMutableString * outputString = [NSMutableString stringWithCapacity:256];
+    
+    NSArray * allKeys = [inputDict allKeys];
+    
+    for (NSString * key in allKeys) {
+        if ([[inputDict objectForKey:key] isKindOfClass:[NSDictionary class]]) {
+            [outputString appendString: [self stringOutputForDictionary: (NSDictionary *)inputDict]];
+        }
+        else {
+            [outputString appendString: key];
+            [outputString appendString: @": "];
+            [outputString appendString: [[inputDict objectForKey: key] description]];
+        }
+        [outputString appendString: @"\n"];
+    }
+    
+    return [NSString stringWithString: outputString];
 }
 
 /*

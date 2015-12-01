@@ -11,5 +11,6 @@
 #import "Librarian.h"
 
 @interface Nightstand : UITableViewController
+@property (strong, nonatomic) IBOutlet UITableView *standTable;
 
 @end

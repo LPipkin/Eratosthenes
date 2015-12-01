@@ -10,4 +10,6 @@
 
 @interface NightstandDetails : UIViewController
 
+@property (nonatomic, strong) NSDictionary *novel;
+
 @end

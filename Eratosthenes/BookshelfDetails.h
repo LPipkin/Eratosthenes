@@ -10,4 +10,6 @@
 
 @interface BookshelfDetails : UIViewController
 
+@property (nonatomic, strong) NSDictionary *novel;
+
 @end

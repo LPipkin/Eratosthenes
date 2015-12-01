@@ -1,25 +1,3 @@
-/*
- Copyright (c) 2014 Mike Buss <michaeltbuss@gmail.com>
- 
- Permission is hereby granted, free of charge, to any person obtaining a copy
- of this software and associated documentation files (the "Software"), to deal
- in the Software without restriction, including without limitation the rights
- to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- copies of the Software, and to permit persons to whom the Software is
- furnished to do so, subject to the following conditions:
- 
- The above copyright notice and this permission notice shall be included in
- all copies or substantial portions of the Software.
- 
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- THE SOFTWARE.
- */
-
 //
 //  LookUp.m
 //  Eratosthenes
@@ -30,12 +8,11 @@
 // google boooks api key: AIzaSyCHt3Jl3bO3phTU8lqv4k5zf57e5x8OhgM
 
 #import "LookUp.h"
-#import "ScanView.h"
-#import "Librarian.h"
 
 @interface LookUp ()
 
 @property (nonatomic, strong) Librarian *shelf;
+@property (weak, nonatomic) IBOutlet UITextView *field;
 
 @end
 
@@ -45,10 +22,20 @@
 @synthesize bID = _bID;
 @synthesize bookResult = _bookResult;
 @synthesize bookPreview = _bookPreview;
+@synthesize field = _field;
+@synthesize shelf = _shelf;
+
+-(Librarian *)shelf{
+    if (_shelf == nil) {
+        _shelf = [[Librarian alloc] init];
+    }
+    return _shelf;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"isbn passed: %@", self.isbn);
     NSString *initialURL = [NSString stringWithFormat:@"https://www.googleapis.com/books/v1/volumes?q=isbn+%@", self.isbn];
     
     NSURL * url1 = [[NSURL alloc] initWithString:initialURL];
@@ -69,7 +56,7 @@
                              JSONObjectWithData:urlData1
                              options:0
                              error:&error1];
-    
+    //NSLog(@"%@", object1);
     self.bID = [object1 valueForKeyPath:@"items.id"][0];
     //NSLog(@"%@", gidstr);
     // NSString *finalURL = [NSString stringWithFormat:@"https://www.googleapis.com/books/v1/volumes/%@?key=AIzaSyCHt3Jl3bO3phTU8lqv4k5zf57e5x8OhgM", self.bID];
@@ -95,9 +82,10 @@
                              options:0
                              error:&error2];
     //NSLog(@"%@", object2);
+    NSString *fullTitle = [NSString stringWithFormat:@"%@ %@", [object2 valueForKeyPath:@"volumeInfo.title"], [object2 valueForKeyPath:@"volumeInfo.subtitle"]];
     self.bookResult = [[NSMutableDictionary alloc] initWithObjectsAndKeys:
                        [object2 valueForKeyPath:@"id"], @"gID",
-                       [object2 valueForKeyPath:@"volumeInfo.title"], @"title",
+                       fullTitle, @"title",
                        [object2 valueForKeyPath:@"volumeInfo.authors"], @"author",
                        [object2 valueForKeyPath:@"volumeInfo.publisher"], @"publisher",
                        [object2 valueForKeyPath:@"volumeInfo.publishedDate"], @"publishDate",
@@ -105,6 +93,7 @@
                        [object2 valueForKeyPath:@"volumeInfo.printedPageCount"], @"pageCount",
                        [object2 valueForKeyPath:@"volumeInfo.categories"], @"catagories",
                        self.isbn, @"isbn",
+                       @"none", @"notes",
                        [object2 valueForKeyPath:@"volumeInfo.imageLinks.thumbnail"], @"imageLink",
                        @"No", @"reading", nil];
     
@@ -118,10 +107,14 @@
         }
     }
     self.bookResult = [NSMutableDictionary dictionaryWithDictionary:tmpDict];
-    
+    self.field.text = [NSString stringWithFormat:@"%@\n\n%@", [self.bookResult objectForKey:@"title"], [self.bookResult objectForKey:@"description"]];
     //NSLog(@"\n\n\n\n\n\n\n\n");
-    //NSLog(@"2: %@", tmpDict);
+    NSLog(@"2: %@", self.bookResult);
     
+    NSURL *absUrl = [NSURL URLWithString:[self.bookResult objectForKey:@"imageLink"]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:absUrl];
+    //self.wikiPage.scalesPageToFit = YES;
+    [self.bookPreview loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -130,11 +123,21 @@
 }
 
 - (IBAction)addBook:(UIButton *)sender {
+    NSLog(@"in addBook");
     if ([sender.currentTitle isEqualToString:@"Add to Table"]) {
         self.bookResult[@"reading"] = @"Yes";
     }
-    NSDictionary *tmp = [NSDictionary dictionaryWithDictionary:self.bookResult];
-    [self.shelf insert:@"" withDict:tmp];
+    if ([sender.currentTitle isEqualToString:@"Add to Shelf"]) {
+        self.bookResult[@"reading"] = @"No";
+    }
+
+    [self.shelf insert:[self.shelf getDbFilePath] withDict:self.bookResult];
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)Back
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 /*

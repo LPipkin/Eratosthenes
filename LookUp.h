@@ -9,16 +9,17 @@
 // google boooks api key: AIzaSyCHt3Jl3bO3phTU8lqv4k5zf57e5x8OhgM
 
 #import <UIKit/UIKit.h>
+#import "ScanView.h"
+#import "Librarian.h"
 
 @interface LookUp : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIWebView *bookPreview;
 
 @property (strong, nonatomic) NSMutableDictionary *bookResult;
-@property (weak, nonatomic) NSString *isbn;
+@property (nonatomic) NSString *isbn;
 @property (weak, nonatomic) NSString *bID;
 
-- (IBAction)addBook:(id)sender;
 
 @end
 // NSString *finalURL = [NSString stringWithFormat:@"https://www.googleapis.com/books/v1/volumes/%@?key=AIzaSyCHt3Jl3bO3phTU8lqv4k5zf57e5x8OhgM", self.bID];
