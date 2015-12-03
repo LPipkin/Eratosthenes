@@ -8,20 +8,32 @@
 
 #import "BookshelfDetails.h"
 #import "BookShelfNotes.h"
+#import "Librarian.h"
 
 @interface BookshelfDetails ()
 @property (weak, nonatomic) IBOutlet UITextView *field;
-
+@property (weak, nonatomic) Librarian *shelf;
 @end
 
 @implementation BookshelfDetails
 
 @synthesize field = _field;
+@synthesize titleLabel = _titleLabel;
+@synthesize shelf = _shelf;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.field.text = [self stringOutputForDictionary:self.novel];
+    self.titleLabel.text = [NSString stringWithFormat:@"%@ - %@",
+                            [self.novel objectForKey:@"title"],
+                            [self.novel objectForKey:@"author"]];
+    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]
+                                           initWithTitle:@"Back"
+                                           style:UIBarButtonItemStylePlain
+                                           target:self
+                                           action:@selector(backButtonHit)];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,27 +42,22 @@
 }
 
 - (NSString *)stringOutputForDictionary:(NSDictionary *)inputDict {
-    NSMutableString * outputString = [NSMutableString stringWithCapacity:256];
-    
-    NSArray * allKeys = [inputDict allKeys];
-    
-    for (NSString * key in allKeys) {
-        if ([[inputDict objectForKey:key] isKindOfClass:[NSDictionary class]]) {
-            [outputString appendString: [self stringOutputForDictionary: (NSDictionary *)inputDict]];
-        }
-        else {
-            [outputString appendString: key];
-            [outputString appendString: @": "];
-            [outputString appendString: [[inputDict objectForKey: key] description]];
-        }
-        [outputString appendString: @"\n"];
-    }
-    
-    return [NSString stringWithString: outputString];
+    return [NSString stringWithFormat:
+        @"Description:\n\t%@\nGenre:\n\t%@\nPublished:\n\t%@\nNotes:"
+            "\n\t%@\nPages:\n\t%@\nISBN:\n\t%@\nPublisher\n\t%@",
+        [self.novel objectForKey:@"description"],
+        [self.novel objectForKey:@"catagories"],
+        [self.novel objectForKey:@"publishDate"],
+        [self.novel objectForKey:@"notes"],
+        [self.novel objectForKey:@"pageCount"],
+        [self.novel objectForKey:@"isbn"],
+        [self.novel objectForKey:@"publisher"]];
 }
 
 - (IBAction)readPressed:(id)sender {
-    
+    NSMutableDictionary *tmpDict = [NSMutableDictionary dictionaryWithDictionary:self.novel];
+    [self.shelf updateRead:[self.shelf getDbFilePath] withDict:tmpDict];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - Navigation
@@ -61,6 +68,12 @@
     // Pass the selected object to the new view controller.
     BookShelfNotes *destViewController = segue.destinationViewController;
     destViewController.book = self.novel;
+}
+
+-(void)backButtonHit
+{
+    // removeItemAtPath: newFilepath stuff here
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end

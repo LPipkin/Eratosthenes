@@ -56,12 +56,12 @@
                              JSONObjectWithData:urlData1
                              options:0
                              error:&error1];
-    //NSLog(@"%@", object1);
-    self.bID = [object1 valueForKeyPath:@"items.id"][0];
-    //NSLog(@"%@", gidstr);
-    // NSString *finalURL = [NSString stringWithFormat:@"https://www.googleapis.com/books/v1/volumes/%@?key=AIzaSyCHt3Jl3bO3phTU8lqv4k5zf57e5x8OhgM", self.bID];
 
+    self.bID = [object1 valueForKeyPath:@"items.id"][0];
+    
+    // NSString *finalURL = [NSString stringWithFormat:@"https://www.googleapis.com/books/v1/volumes/%@?key=AIzaSyCHt3Jl3bO3phTU8lqv4k5zf57e5x8OhgM", self.bID];
     NSString *finalURL = [NSString stringWithFormat:@"https://www.googleapis.com/books/v1/volumes/%@", self.bID];
+    
     NSLog(@"%@", finalURL);
     NSURL * url2 = [[NSURL alloc] initWithString:finalURL];
     
@@ -82,7 +82,13 @@
                              options:0
                              error:&error2];
     //NSLog(@"%@", object2);
-    NSString *fullTitle = [NSString stringWithFormat:@"%@ %@", [object2 valueForKeyPath:@"volumeInfo.title"], [object2 valueForKeyPath:@"volumeInfo.subtitle"]];
+    NSString *fullTitle;
+    if ([object2 valueForKeyPath:@"volumeInfo.subtitle"]) {
+        fullTitle = [NSString stringWithFormat:@"%@ %@", [object2 valueForKeyPath:@"volumeInfo.title"], [object2 valueForKeyPath:@"volumeInfo.subtitle"]];
+    }else{
+        fullTitle = [object2 valueForKeyPath:@"volumeInfo.title"];
+    }
+    
     self.bookResult = [[NSMutableDictionary alloc] initWithObjectsAndKeys:
                        [object2 valueForKeyPath:@"id"], @"gID",
                        fullTitle, @"title",
@@ -110,7 +116,7 @@
     self.field.text = [NSString stringWithFormat:@"%@\n\n%@", [self.bookResult objectForKey:@"title"], [self.bookResult objectForKey:@"description"]];
     //NSLog(@"\n\n\n\n\n\n\n\n");
     NSLog(@"2: %@", self.bookResult);
-    
+    NSLog(@"thumbnail: %@", [self.bookResult objectForKey:@"imageLink"]);
     NSURL *absUrl = [NSURL URLWithString:[self.bookResult objectForKey:@"imageLink"]];
     NSURLRequest *request = [NSURLRequest requestWithURL:absUrl];
     self.bookPreview.scalesPageToFit = YES;

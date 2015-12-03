@@ -51,7 +51,7 @@
     [super viewDidAppear:animated];
     
     self.navigationItem.backBarButtonItem =
-    [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.row = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"No\""];
 
@@ -136,11 +136,9 @@
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    NSLog(@"inprepare for segue");
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
     if ([segue.identifier isEqualToString:@"showBookDetail"]) {
-        NSLog(@"in prpearedor sque if");
         NSIndexPath *indexPath = self.shelfTable.indexPathForSelectedRow;
         BookshelfDetails *destViewController = segue.destinationViewController;
         destViewController.novel = [self.row objectAtIndex:indexPath.row];

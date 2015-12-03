@@ -37,10 +37,12 @@
 }
 
 -(IBAction)cancelPressed:(id)sender{
+    [self.textField resignFirstResponder];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 -(IBAction)donePressed:(id)sender{
+    [self.textField resignFirstResponder];
     NSMutableDictionary *tmpDict = [NSMutableDictionary dictionaryWithDictionary:self.book];
     tmpDict[@"notes"] = self.textField.text;
     [self.shelf updateNotes:[self.shelf getDbFilePath] withDict:tmpDict];

@@ -237,7 +237,7 @@
         NSString * query  = [NSString
                              stringWithFormat:@"INSERT INTO books "
                              "(gID, title, author, publisher, publishDate, description, pageCount, catagories, isbn, imageLink, notes, reading) "
-                             "VALUES (\"%@\", \"%@\", \"%@\", \"%@\", \"%@\", \"%@\", \"%@\", \"%@\", \"%@\", \"%@\", \"%@\")",
+                             "VALUES (\"%@\", \"%@\", \"%@\", \"%@\", \"%@\", \"%@\", \"%@\", \"%@\", \"%@\", \"%@\", \"%@\", \"%@\")",
                              book[@"gID"],
                              book[@"title"],
                              book[@"author"],

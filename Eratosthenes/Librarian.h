@@ -15,6 +15,7 @@
 -(NSString *) getDbFilePath;
 -(int) deleteWithDictionary:(NSDictionary *)dict;
 -(int) delete:(NSString *)filePath withLisbn:(NSString *)isbn;
+-(int) updateRead:(NSString *)filePath withDict:(NSMutableDictionary *)book;
 -(int) updateNotes:(NSString *)filePath withDict:(NSMutableDictionary *)book;
 -(int) insert:(NSString *)filePath withDict:(NSMutableDictionary *)book;
 -(int) insertWithoutExec:(NSString *)filePath withDict:(NSMutableDictionary *)book;

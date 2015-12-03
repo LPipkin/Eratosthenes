@@ -47,8 +47,9 @@
 {
     [super viewDidAppear:animated];
     
-    self.navigationItem.backBarButtonItem =
-    [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    //self.navigationItem.backBarButtonItem =
+    //[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.row = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"Yes\""];
     
@@ -132,7 +133,6 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
     if ([segue.identifier isEqualToString:@"showNightstand"]) {
-        NSLog(@"in prpearedor sque if");
         NSIndexPath *indexPath = self.standTable.indexPathForSelectedRow;
         NightstandDetails *destViewController = segue.destinationViewController;
         destViewController.novel = [self.row objectAtIndex:indexPath.row];
