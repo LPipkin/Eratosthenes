@@ -95,7 +95,7 @@
                        self.isbn, @"isbn",
                        @"none", @"notes",
                        [object2 valueForKeyPath:@"volumeInfo.imageLinks.thumbnail"], @"imageLink",
-                       @"No", @"reading", nil];
+                       @"Huh?", @"reading", nil];
     
     //NSLog(@"1: %@", self.bookResult);
     NSMutableDictionary *tmpDict = [NSMutableDictionary dictionaryWithDictionary:self.bookResult];
@@ -113,7 +113,7 @@
     
     NSURL *absUrl = [NSURL URLWithString:[self.bookResult objectForKey:@"imageLink"]];
     NSURLRequest *request = [NSURLRequest requestWithURL:absUrl];
-    //self.wikiPage.scalesPageToFit = YES;
+    self.bookPreview.scalesPageToFit = YES;
     [self.bookPreview loadRequest:request];
 }
 
@@ -124,10 +124,10 @@
 
 - (IBAction)addBook:(UIButton *)sender {
     NSLog(@"in addBook");
-    if ([sender.currentTitle isEqualToString:@"Add to Table"]) {
+    if ([sender.currentTitle isEqualToString:@"Put on Table"]) {
         self.bookResult[@"reading"] = @"Yes";
     }
-    if ([sender.currentTitle isEqualToString:@"Add to Shelf"]) {
+    if ([sender.currentTitle isEqualToString:@"Put on Shelf"]) {
         self.bookResult[@"reading"] = @"No";
     }
 

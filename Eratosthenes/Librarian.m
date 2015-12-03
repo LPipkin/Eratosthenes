@@ -81,6 +81,11 @@
     return rc;
 }
 
+-(int) deleteWithDictionary:(NSDictionary *)dict{
+    int rc = [self delete:[self getDbFilePath] withLisbn:[dict objectForKey:@"isbn"]];
+    return rc;
+}
+
 -(int) delete:(NSString *) filePath withLisbn:(NSString *) isbn
 {
     sqlite3 *db = NULL;
@@ -106,6 +111,74 @@
     }
     
     return  rc;
+}
+
+-(int) updateRead:(NSString *)filePath withDict:(NSMutableDictionary *)book
+{
+    sqlite3* db = NULL;
+    int rc=0;
+    rc = sqlite3_open_v2([filePath cStringUsingEncoding:NSUTF8StringEncoding], &db, SQLITE_OPEN_READWRITE , NULL);
+    if (SQLITE_OK != rc)
+    {
+        sqlite3_close(db);
+        NSLog(@"Failed to open db connection");
+    }
+    else
+    {
+        NSString *query;
+        if ([book[@"reading"] isEqualToString:@"Yes"]) {
+            query  = [NSString
+                      stringWithFormat:@"UPDATE books "
+                             "SET reading = \"No\" "
+                             "WHERE gID = \"%@\"",
+                             book[@"gID"]];
+        } else {
+            query  = [NSString
+                      stringWithFormat:@"UPDATE books "
+                      "SET reading = \"Yes\" "
+                      "WHERE gID = \"%@\"",
+                      book[@"gID"]];
+        }
+        NSLog(@"in update reading");
+        char * errMsg;
+        rc = sqlite3_exec(db, [query UTF8String] , NULL, NULL, &errMsg);
+        if(SQLITE_OK != rc)
+        {
+            NSLog(@"Failed to update record  rc:%d, msg=%s", rc, errMsg);
+        }
+        sqlite3_close(db);
+    }
+    return rc;
+}
+
+-(int) updateNotes:(NSString *)filePath withDict:(NSMutableDictionary *)book
+{
+    sqlite3* db = NULL;
+    int rc=0;
+    rc = sqlite3_open_v2([filePath cStringUsingEncoding:NSUTF8StringEncoding], &db, SQLITE_OPEN_READWRITE , NULL);
+    if (SQLITE_OK != rc)
+    {
+        sqlite3_close(db);
+        NSLog(@"Failed to open db connection");
+    }
+    else
+    {
+        NSString * query  = [NSString
+                             stringWithFormat:@"UPDATE books "
+                             "SET notes = \"%@\" "
+                             "WHERE gID = \"%@\"",
+                             book[@"notes"], book[@"gID"]];
+        
+        NSLog(@"in update notes");
+        char * errMsg;
+        rc = sqlite3_exec(db, [query UTF8String] , NULL, NULL, &errMsg);
+        if(SQLITE_OK != rc)
+        {
+            NSLog(@"Failed to update record  rc:%d, msg=%s", rc, errMsg);
+        }
+        sqlite3_close(db);
+    }
+    return rc;
 }
 
 -(int) insert:(NSString *)filePath withDict:(NSMutableDictionary *)book
@@ -254,7 +327,7 @@
                 [shelf addObject:book];
                 
             }
-            NSLog(@"Done");
+            //NSLog(@"Done");
             sqlite3_finalize(stmt);
         }
         else

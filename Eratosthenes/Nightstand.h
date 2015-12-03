@@ -10,7 +10,7 @@
 #import "NightstandDetails.h"
 #import "Librarian.h"
 
-@interface Nightstand : UITableViewController
+@interface Nightstand : UITableViewController  <UITableViewDelegate, UITableViewDataSource>
 @property (strong, nonatomic) IBOutlet UITableView *standTable;
 
 @end

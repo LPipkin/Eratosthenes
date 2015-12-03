@@ -42,6 +42,7 @@
             if (code.stringValue && [self.uniqueCodes indexOfObject:code.stringValue] == NSNotFound) {
                 [self.uniqueCodes addObject:code.stringValue];
                 self.barcodeLable.text = code.stringValue;
+                [self stopScanning];
                 NSLog(@"Found unique code: %@", code.stringValue);
             }
         }
@@ -64,7 +65,8 @@
     if ([self.scanner isScanning] || self.captureIsFrozen) {
         [self stopScanning];
         //self.toggleTorchButton.title = @"Enable Torch";
-        self.lightOn = NO;
+        self.toggleTorchButton.titleLabel.text = @"Enable Torch";
+        //self.lightOn = NO;
     } else {
         [MTBBarcodeScanner requestCameraPermissionWithSuccess:^(BOOL success) {
             if (success) {
@@ -84,11 +86,13 @@
     if (self.scanner.torchMode == MTBTorchModeOff || self.scanner.torchMode == MTBTorchModeAuto) {
         self.scanner.torchMode = MTBTorchModeOn;
         //self.toggleTorchButton.title = @"Disable Torch";
-        self.lightOn = YES;
+        self.toggleTorchButton.titleLabel.text = @"Disable Torch";
+        //self.lightOn = YES;
     } else {
         self.scanner.torchMode = MTBTorchModeOff;
         //self.toggleTorchButton.title = @"Enable Torch";
-        self.lightOn = NO;
+        self.toggleTorchButton.titleLabel.text = @"Enable Torch";
+        //self.lightOn = NO;
     }
 }
 
@@ -117,12 +121,13 @@
     }
     
     if (!self.didShowCaptureWarning) {
+
         [[[UIAlertView alloc] initWithTitle:@"Capture Frozen"
                                     message:@"The capture is now frozen. Tap the preview again to unfreeze."
                                    delegate:nil
                           cancelButtonTitle:@"Ok"
                           otherButtonTitles:nil] show];
-        
+
         self.didShowCaptureWarning = YES;
     }
     

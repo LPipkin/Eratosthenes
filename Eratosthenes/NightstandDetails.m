@@ -7,6 +7,7 @@
 //
 
 #import "NightstandDetails.h"
+#import "NightstandNotes.h"
 
 @interface NightstandDetails ()
 @property (weak, nonatomic) IBOutlet UITextView *field;
@@ -48,14 +49,20 @@
     return [NSString stringWithString: outputString];
 }
 
-/*
+-(void)finihedPressed:(id)sender{
+    
+}
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    NightstandNotes *destViewController = segue.destinationViewController;
+    destViewController.book = self.novel;
+
 }
-*/
+
 
 @end

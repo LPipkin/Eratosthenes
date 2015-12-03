@@ -10,6 +10,8 @@
 		E45EC8A21C08BA5E0082FBBD /* MTBBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EC8A11C08BA5E0082FBBD /* MTBBarcodeScanner.m */; };
 		E4B4DA2B1C0C72B400A9A89D /* ScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B4DA2A1C0C72B400A9A89D /* ScanView.m */; };
 		E4B4DA501C0D47FC00A9A89D /* backup in Resources */ = {isa = PBXBuildFile; fileRef = E4B4DA4F1C0D47FC00A9A89D /* backup */; };
+		E4B4DA531C100CA600A9A89D /* BookShelfNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B4DA521C100CA600A9A89D /* BookShelfNotes.m */; };
+		E4B4DA561C100CC100A9A89D /* NightstandNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B4DA551C100CC100A9A89D /* NightstandNotes.m */; };
 		E4C4C0CF1C04E88800BB35EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4C0CE1C04E88800BB35EE /* main.m */; };
 		E4C4C0D21C04E88800BB35EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4C0D11C04E88800BB35EE /* AppDelegate.m */; };
 		E4C4C0D81C04E88800BB35EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C4C0D61C04E88800BB35EE /* Main.storyboard */; };
@@ -33,6 +35,10 @@
 		E4B4DA291C0C72B400A9A89D /* ScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanView.h; sourceTree = "<group>"; };
 		E4B4DA2A1C0C72B400A9A89D /* ScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanView.m; sourceTree = "<group>"; };
 		E4B4DA4F1C0D47FC00A9A89D /* backup */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = backup; path = ../backup; sourceTree = "<group>"; };
+		E4B4DA511C100CA600A9A89D /* BookShelfNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfNotes.h; sourceTree = "<group>"; };
+		E4B4DA521C100CA600A9A89D /* BookShelfNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfNotes.m; sourceTree = "<group>"; };
+		E4B4DA541C100CC100A9A89D /* NightstandNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NightstandNotes.h; sourceTree = "<group>"; };
+		E4B4DA551C100CC100A9A89D /* NightstandNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NightstandNotes.m; sourceTree = "<group>"; };
 		E4C4C0CA1C04E88800BB35EE /* Eratosthenes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eratosthenes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C4C0CE1C04E88800BB35EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4C4C0D01C04E88800BB35EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,10 +103,14 @@
 				E4C4C0FC1C04F1E800BB35EE /* Bookshelf.m */,
 				E4C4C0E61C04E9A300BB35EE /* BookshelfDetails.h */,
 				E4C4C0E71C04E9A300BB35EE /* BookshelfDetails.m */,
+				E4B4DA511C100CA600A9A89D /* BookShelfNotes.h */,
+				E4B4DA521C100CA600A9A89D /* BookShelfNotes.m */,
 				E4C4C0F81C04F18A00BB35EE /* Nightstand.h */,
 				E4C4C0F91C04F18A00BB35EE /* Nightstand.m */,
 				E4C4C0EC1C04EB2200BB35EE /* NightstandDetails.h */,
 				E4C4C0ED1C04EB2200BB35EE /* NightstandDetails.m */,
+				E4B4DA541C100CC100A9A89D /* NightstandNotes.h */,
+				E4B4DA551C100CC100A9A89D /* NightstandNotes.m */,
 				E4B4DA291C0C72B400A9A89D /* ScanView.h */,
 				E4B4DA2A1C0C72B400A9A89D /* ScanView.m */,
 				E4C4C0F21C04EBD900BB35EE /* LookUp.h */,
@@ -204,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B4DA531C100CA600A9A89D /* BookShelfNotes.m in Sources */,
 				E4C4C0E81C04E9A300BB35EE /* BookshelfDetails.m in Sources */,
 				E4B4DA2B1C0C72B400A9A89D /* ScanView.m in Sources */,
 				E4C4C0EE1C04EB2200BB35EE /* NightstandDetails.m in Sources */,
@@ -212,6 +223,7 @@
 				E45EC8A21C08BA5E0082FBBD /* MTBBarcodeScanner.m in Sources */,
 				E4C4C0D21C04E88800BB35EE /* AppDelegate.m in Sources */,
 				E4C4C0F41C04EBD900BB35EE /* LookUp.m in Sources */,
+				E4B4DA561C100CC100A9A89D /* NightstandNotes.m in Sources */,
 				E4C4C0F11C04EBB100BB35EE /* Librarian.m in Sources */,
 				E4C4C0CF1C04E88800BB35EE /* main.m in Sources */,
 			);

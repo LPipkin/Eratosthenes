@@ -13,6 +13,8 @@
 @property (nonatomic, strong) Librarian *shelf;
 @property (nonatomic, strong) NSArray *row;
 
+- (id)objectAtIndexedSubscript: (NSUInteger)index;
+
 @end
 
 @implementation Bookshelf
@@ -36,12 +38,23 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
+//    self.navigationItem.backBarButtonItem =
+//    [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+//    self.navigationItem.rightBarButtonItem = self.editButtonItem;
+//    self.row = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"No\""];
+    
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
     self.navigationItem.backBarButtonItem =
     [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
-    
+    self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.row = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"No\""];
-    
-    
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -64,7 +77,7 @@
     //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
     // Configure the cell...
-    static NSString *tableIdentifier = @"BookCell";
+    static NSString *tableIdentifier = @"BookCell1";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:tableIdentifier];
     
@@ -87,17 +100,22 @@
 }
 */
 
-/*
+- (id) objectAtIndexedSubscript:(NSUInteger)index{
+    return [self.row objectAtIndex:index];
+}
+
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source
+        [tableView beginUpdates];
+        [self.shelf deleteWithDictionary:[self.row objectAtIndex:indexPath.row]];
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+        [tableView endUpdates];
+        [tableView reloadData];
+    }
 }
-*/
+
 
 /*
 // Override to support rearranging the table view.
@@ -118,9 +136,11 @@
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    NSLog(@"inprepare for segue");
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
     if ([segue.identifier isEqualToString:@"showBookDetail"]) {
+        NSLog(@"in prpearedor sque if");
         NSIndexPath *indexPath = self.shelfTable.indexPathForSelectedRow;
         BookshelfDetails *destViewController = segue.destinationViewController;
         destViewController.novel = [self.row objectAtIndex:indexPath.row];
