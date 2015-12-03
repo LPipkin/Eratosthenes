@@ -51,10 +51,12 @@
     //self.navigationItem.backBarButtonItem =
     //[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     [self.tableView reloadData];
-    NSLog(@"%@", self.tableDataSource);
+    //NSLog(@"%@", self.tableDataSource);
     //self.navigationItem.rightBarButtonItem = self.editButtonItem;
     //self.tableDataSource = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"Yes\""];
-    
+    //[self.tableView beginUpdates];
+    //self.tableDataSource = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"No\""];
+    //[self.tableView endUpdates];
 }
 
 

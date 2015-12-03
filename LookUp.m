@@ -115,7 +115,7 @@
     self.bookResult = [NSMutableDictionary dictionaryWithDictionary:tmpDict];
     self.field.text = [NSString stringWithFormat:@"%@\n\n%@", [self.bookResult objectForKey:@"title"], [self.bookResult objectForKey:@"description"]];
     //NSLog(@"\n\n\n\n\n\n\n\n");
-    NSLog(@"2: %@", self.bookResult);
+    //NSLog(@"2: %@", self.bookResult);
     NSLog(@"thumbnail: %@", [self.bookResult objectForKey:@"imageLink"]);
     NSURL *absUrl = [NSURL URLWithString:[self.bookResult objectForKey:@"imageLink"]];
     NSURLRequest *request = [NSURLRequest requestWithURL:absUrl];

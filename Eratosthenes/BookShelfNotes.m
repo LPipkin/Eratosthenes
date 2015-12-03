@@ -21,6 +21,13 @@
 @synthesize textField = _textField;
 @synthesize book = _book;
 
+-(Librarian *)shelf{
+    if (_shelf == nil) {
+        _shelf = [[Librarian alloc] init];
+    }
+    return _shelf;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

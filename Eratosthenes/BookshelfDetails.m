@@ -12,7 +12,7 @@
 
 @interface BookshelfDetails ()
 @property (weak, nonatomic) IBOutlet UITextView *field;
-@property (weak, nonatomic) Librarian *shelf;
+@property (strong, nonatomic) Librarian *shelf;
 @end
 
 @implementation BookshelfDetails
@@ -20,6 +20,13 @@
 @synthesize field = _field;
 @synthesize titleLabel = _titleLabel;
 @synthesize shelf = _shelf;
+
+-(Librarian *)shelf{
+    if (_shelf == nil) {
+        _shelf = [[Librarian alloc] init];
+    }
+    return _shelf;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

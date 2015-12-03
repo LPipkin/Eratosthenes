@@ -17,7 +17,15 @@
 
 @implementation NightstandNotes
 
+@synthesize shelf = _shelf;
 @synthesize textField = _textField;
+
+-(Librarian *)shelf{
+    if (_shelf == nil) {
+        _shelf = [[Librarian alloc] init];
+    }
+    return _shelf;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -44,7 +52,9 @@
 -(IBAction)donePressed:(id)sender{
     [self.textField resignFirstResponder];
     NSMutableDictionary *tmpDict = [NSMutableDictionary dictionaryWithDictionary:self.book];
+    NSLog(@"notes: %@", tmpDict[@"notes"]);
     tmpDict[@"notes"] = self.textField.text;
+    NSLog(@"notes: %@", tmpDict[@"notes"]);
     [self.shelf updateNotes:[self.shelf getDbFilePath] withDict:tmpDict];
     [self dismissViewControllerAnimated:YES completion:nil];
 }

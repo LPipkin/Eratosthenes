@@ -115,6 +115,7 @@
 
 -(int) updateRead:(NSString *)filePath withDict:(NSMutableDictionary *)book
 {
+    NSLog(@"in update reading1");
     sqlite3* db = NULL;
     int rc=0;
     rc = sqlite3_open_v2([filePath cStringUsingEncoding:NSUTF8StringEncoding], &db, SQLITE_OPEN_READWRITE , NULL);
@@ -139,7 +140,7 @@
                       "WHERE gID = \"%@\"",
                       book[@"gID"]];
         }
-        NSLog(@"in update reading");
+        NSLog(@"in update reading2");
         char * errMsg;
         rc = sqlite3_exec(db, [query UTF8String] , NULL, NULL, &errMsg);
         if(SQLITE_OK != rc)
@@ -153,6 +154,7 @@
 
 -(int) updateNotes:(NSString *)filePath withDict:(NSMutableDictionary *)book
 {
+    NSLog(@"in update notes1");
     sqlite3* db = NULL;
     int rc=0;
     rc = sqlite3_open_v2([filePath cStringUsingEncoding:NSUTF8StringEncoding], &db, SQLITE_OPEN_READWRITE , NULL);
@@ -169,7 +171,7 @@
                              "WHERE gID = \"%@\"",
                              book[@"notes"], book[@"gID"]];
         
-        NSLog(@"in update notes");
+        NSLog(@"in update notes2");
         char * errMsg;
         rc = sqlite3_exec(db, [query UTF8String] , NULL, NULL, &errMsg);
         if(SQLITE_OK != rc)

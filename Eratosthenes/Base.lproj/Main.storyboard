@@ -179,7 +179,7 @@
             </objects>
             <point key="canvasLocation" x="1567" y="1988"/>
         </scene>
-        <!--Reading Book-->
+        <!--back-->
         <scene sceneID="1GO-YM-zM8">
             <objects>
                 <viewController id="1ud-PK-uW6" customClass="NightstandDetails" sceneMemberID="viewController">
@@ -275,7 +275,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Reading Book" id="ual-Ri-KAh"/>
+                    <navigationItem key="navigationItem" title="back" id="ual-Ri-KAh"/>
                     <connections>
                         <outlet property="field" destination="WVu-Hg-NLh" id="V0I-8j-JJ2"/>
                         <outlet property="textFeild" destination="WVu-Hg-NLh" id="Aij-hE-3JN"/>
