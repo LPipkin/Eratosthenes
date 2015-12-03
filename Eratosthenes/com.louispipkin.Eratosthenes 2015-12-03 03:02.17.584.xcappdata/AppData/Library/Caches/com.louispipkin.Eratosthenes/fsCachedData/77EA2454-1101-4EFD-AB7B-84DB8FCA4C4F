@@ -1,0 +1,842 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 1807,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "UVgVmAEACAAJ",
+   "etag": "TwUZP0zql4Q",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/UVgVmAEACAAJ",
+   "volumeInfo": {
+    "title": "A Manual for Writers of Research Papers, Theses, and Dissertations",
+    "subtitle": "Chicago Style for Students and Researchers",
+    "authors": [
+     "Kate L. Turabian",
+     "Wayne C. Booth"
+    ],
+    "publishedDate": "2007",
+    "description": "The author's clear, practical advice on the successful completion and submission of the student research paper is preserved in this updated new edition of the classic reference that embraces the new modes of research, writing, and source citation brought about by the Internet. Simultaneous.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0226823369"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780226823362"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 466,
+    "printType": "BOOK",
+    "categories": [
+     "Reference"
+    ],
+    "averageRating": 5.0,
+    "ratingsCount": 4,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=UVgVmAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=UVgVmAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=UVgVmAEACAAJ&dq=isbn+isbn&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=UVgVmAEACAAJ&dq=isbn+isbn&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/A_Manual_for_Writers_of_Research_Papers.html?hl=&id=UVgVmAEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=UVgVmAEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The author&#39;s clear, practical advice on the successful completion and submission of the student research paper is preserved in this updated new edition of the classic reference that embraces the new modes of research, writing, and source ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "ZscWT8HzDVAC",
+   "etag": "1RltVb+KgPY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/ZscWT8HzDVAC",
+   "volumeInfo": {
+    "title": "Professional ASP.NET MVC 4",
+    "authors": [
+     "Jon Galloway",
+     "Phil Haack",
+     "Brad Wilson",
+     "K. Scott Allen"
+    ],
+    "publisher": "John Wiley & Sons",
+    "publishedDate": "2012-09-17",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781118416754"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1118416759"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 504,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 16,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.2.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=ZscWT8HzDVAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=ZscWT8HzDVAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=ZscWT8HzDVAC&printsec=frontcover&dq=isbn+isbn&hl=&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=ZscWT8HzDVAC&dq=isbn+isbn&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Professional_ASP_NET_MVC_4.html?hl=&id=ZscWT8HzDVAC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 29.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 23.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=ZscWT8HzDVAC&dq=isbn+isbn&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.999E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 2.399E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Professional_ASP_NET_MVC_4-sample-epub.acsm?id=ZscWT8HzDVAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Professional_ASP_NET_MVC_4-sample-pdf.acsm?id=ZscWT8HzDVAC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=ZscWT8HzDVAC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Professional ASP.NET MVC 4: Explains how the ASP.NET MVC framework differs from other &quot;file per page&quot; web frameworks Covers controllers, views, models, forms and HTML helpers, data annotations and validation, membership, authorization, ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "3l7_p6EuMYoC",
+   "etag": "W8yUx1vnuC8",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/3l7_p6EuMYoC",
+   "volumeInfo": {
+    "title": "ISBN 0-9690745-2-2",
+    "authors": [
+     "Brad Brace"
+    ],
+    "publisher": "brad brace",
+    "publishedDate": "1984",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780969074526"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0969074522"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 128,
+    "printType": "BOOK",
+    "categories": [
+     "Artists' books"
+    ],
+    "averageRating": 5.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.1.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=3l7_p6EuMYoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=3l7_p6EuMYoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=3l7_p6EuMYoC&printsec=frontcover&dq=isbn+isbn&hl=&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=3l7_p6EuMYoC&dq=isbn+isbn&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/ISBN_0_9690745_2_2.html?hl=&id=3l7_p6EuMYoC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=3l7_p6EuMYoC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "t5rgAAAAMAAJ",
+   "etag": "OHwGWWygyW4",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/t5rgAAAAMAAJ",
+   "volumeInfo": {
+    "title": "ISBN Review",
+    "authors": [
+     "International ISBN Agency"
+    ],
+    "publishedDate": "1998",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "UOM:39015081566500"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "printType": "BOOK",
+    "categories": [
+     "International Standard Book Numbers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=t5rgAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=t5rgAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=t5rgAAAAMAAJ&q=isbn+isbn&dq=isbn+isbn&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=t5rgAAAAMAAJ&dq=isbn+isbn&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/ISBN_Review.html?hl=&id=t5rgAAAAMAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=t5rgAAAAMAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "s38ZUtsezc8C",
+   "etag": "CmhSXokvfv4",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/s38ZUtsezc8C",
+   "volumeInfo": {
+    "title": "e-Study Guide for: Abnormal Psychology by Robin Rosenberg, ISBN 9781429263566",
+    "subtitle": "Psychology, Abnormal psychology",
+    "authors": [
+     "Cram101 Textbook Reviews"
+    ],
+    "publisher": "Cram101 Textbook Reviews",
+    "publishedDate": "2014-01-01",
+    "description": "Never Highlight a Book Again! Just the FACTS101 study guides give the student the textbook outlines, highlights, practice quizzes and optional access to the full practice tests for their textbook.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781467225847"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1467225843"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 125,
+    "printType": "BOOK",
+    "categories": [
+     "Education"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "2.5.5.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=s38ZUtsezc8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=s38ZUtsezc8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=s38ZUtsezc8C&printsec=frontcover&dq=isbn+isbn&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=s38ZUtsezc8C&dq=isbn+isbn&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/e_Study_Guide_for_Abnormal_Psychology_by.html?hl=&id=s38ZUtsezc8C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 37.95,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 30.36,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=s38ZUtsezc8C&dq=isbn+isbn&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 3.795E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.036E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/e_Study_Guide_for_Abnormal_Psychology_by-sample-epub.acsm?id=s38ZUtsezc8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/e_Study_Guide_for_Abnormal_Psychology_by-sample-pdf.acsm?id=s38ZUtsezc8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=s38ZUtsezc8C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Never Highlight a Book Again! Just the FACTS101 study guides give the student the textbook outlines, highlights, practice quizzes and optional access to the full practice tests for their textbook."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "G4KCPGnKFEUC",
+   "etag": "FKiCSIMcVmk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/G4KCPGnKFEUC",
+   "volumeInfo": {
+    "title": "Captive Audience",
+    "subtitle": "The Telecom Industry and Monopoly Power in the New Gilded Age",
+    "authors": [
+     "Susan P. Crawford"
+    ],
+    "publisher": "Yale University Press",
+    "publishedDate": "2013-01-08",
+    "description": "Ten years ago, the United States stood at the forefront of the Internet revolution. With some of the fastest speeds and lowest prices in the world for high-speed Internet access, the nation was poised to be the global leader in the new knowledge-based economy. Today that global competitive advantage has all but vanished because of a series of government decisions and resulting monopolies that have allowed dozens of countries, including Japan and South Korea, to pass us in both speed and price of broadband. This steady slide backward not only deprives consumers of vital services needed in a competitive employment and business market—it also threatens the economic future of the nation. This important book by leading telecommunications policy expert Susan Crawford explores why Americans are now paying much more but getting much less when it comes to high-speed Internet access. Using the 2011 merger between Comcast and NBC Universal as a lens, Crawford examines how we have created the biggest monopoly since the breakup of Standard Oil a century ago. In the clearest terms, this book explores how telecommunications monopolies have affected the daily lives of consumers and America's global economic standing.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780300167375"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0300167377"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 256,
+    "printType": "BOOK",
+    "categories": [
+     "Law"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 34,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.5.5.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=G4KCPGnKFEUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=G4KCPGnKFEUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=G4KCPGnKFEUC&printsec=frontcover&dq=isbn+isbn&hl=&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=G4KCPGnKFEUC&dq=isbn+isbn&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Captive_Audience.html?hl=&id=G4KCPGnKFEUC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 30.0,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 16.5,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=G4KCPGnKFEUC&dq=isbn+isbn&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 3.0E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.65E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Captive_Audience-sample-epub.acsm?id=G4KCPGnKFEUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Captive_Audience-sample-pdf.acsm?id=G4KCPGnKFEUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=G4KCPGnKFEUC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "In the clearest terms, this book explores how telecommunications monopolies have affected the daily lives of consumers and America&#39;s global economic standing."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "yTHImJI7O50C",
+   "etag": "2XLUuTq0fWk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/yTHImJI7O50C",
+   "volumeInfo": {
+    "title": "e-Study Guide for: AACN Advanced Critical Care Nursing by AACN, ISBN 9781416032199",
+    "subtitle": "Nursing, Nursing",
+    "authors": [
+     "Cram101 Textbook Reviews"
+    ],
+    "publisher": "Cram101 Textbook Reviews",
+    "publishedDate": "2014-01-01",
+    "description": "Never Highlight a Book Again! Just the FACTS101 study guides give the student the textbook outlines, highlights, practice quizzes and optional access to the full practice tests for their textbook.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781467210454"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1467210455"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 156,
+    "printType": "BOOK",
+    "categories": [
+     "Education"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "2.4.4.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=yTHImJI7O50C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=yTHImJI7O50C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=yTHImJI7O50C&printsec=frontcover&dq=isbn+isbn&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=yTHImJI7O50C&dq=isbn+isbn&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/e_Study_Guide_for_AACN_Advanced_Critical.html?hl=&id=yTHImJI7O50C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 47.95,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 37.64,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=yTHImJI7O50C&dq=isbn+isbn&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 4.795E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.764E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/e_Study_Guide_for_AACN_Advanced_Critical-sample-epub.acsm?id=yTHImJI7O50C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/e_Study_Guide_for_AACN_Advanced_Critical-sample-pdf.acsm?id=yTHImJI7O50C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=yTHImJI7O50C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Never Highlight a Book Again! Just the FACTS101 study guides give the student the textbook outlines, highlights, practice quizzes and optional access to the full practice tests for their textbook."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "QpCeSExzPggC",
+   "etag": "bBlG35g9tpE",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/QpCeSExzPggC",
+   "volumeInfo": {
+    "title": "e-Study Guide for: Biological Physics by Philip Nelson, ISBN 9780716798972",
+    "authors": [
+     "Cram101 Textbook Reviews"
+    ],
+    "publisher": "Cram101 Textbook Reviews",
+    "publishedDate": "2012-01-01",
+    "description": "Never Highlight a Book Again! Just the FACTS101 study guides give the student the textbook outlines, highlights, practice quizzes and optional access to the full practice tests for their textbook.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781467284981"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "146728498X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 130,
+    "printType": "BOOK",
+    "categories": [
+     "Education"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.2.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=QpCeSExzPggC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=QpCeSExzPggC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=QpCeSExzPggC&printsec=frontcover&dq=isbn+isbn&hl=&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=QpCeSExzPggC&dq=isbn+isbn&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/e_Study_Guide_for_Biological_Physics_by.html?hl=&id=QpCeSExzPggC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 45.95,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 36.76,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=QpCeSExzPggC&dq=isbn+isbn&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 4.595E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.676E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/e_Study_Guide_for_Biological_Physics_by-sample-epub.acsm?id=QpCeSExzPggC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/e_Study_Guide_for_Biological_Physics_by-sample-pdf.acsm?id=QpCeSExzPggC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=QpCeSExzPggC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Never Highlight a Book Again! Just the FACTS101 study guides give the student the textbook outlines, highlights, practice quizzes and optional access to the full practice tests for their textbook."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "PCn8DFWMxs4C",
+   "etag": "VOasLSl47eg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/PCn8DFWMxs4C",
+   "volumeInfo": {
+    "title": "e-Study Guide for: Abnormal Psychology: by Gerald C. Davison, ISBN 9780471479581",
+    "subtitle": "Psychology, Abnormal psychology",
+    "authors": [
+     "Cram101 Textbook Reviews"
+    ],
+    "publisher": "Cram101 Textbook Reviews",
+    "publishedDate": "2014-01-01",
+    "description": "Never Highlight a Book Again! Just the FACTS101 study guides give the student the textbook outlines, highlights, practice quizzes and optional access to the full practice tests for their textbook.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781467213127"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1467213128"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 87,
+    "printType": "BOOK",
+    "categories": [
+     "Education"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "2.3.3.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=PCn8DFWMxs4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=PCn8DFWMxs4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=PCn8DFWMxs4C&printsec=frontcover&dq=isbn+isbn&hl=&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=PCn8DFWMxs4C&dq=isbn+isbn&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/e_Study_Guide_for_Abnormal_Psychology_by.html?hl=&id=PCn8DFWMxs4C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 26.95,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 14.55,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=PCn8DFWMxs4C&dq=isbn+isbn&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.695E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.455E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/e_Study_Guide_for_Abnormal_Psychology_by-sample-epub.acsm?id=PCn8DFWMxs4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/e_Study_Guide_for_Abnormal_Psychology_by-sample-pdf.acsm?id=PCn8DFWMxs4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=PCn8DFWMxs4C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Never Highlight a Book Again! Just the FACTS101 study guides give the student the textbook outlines, highlights, practice quizzes and optional access to the full practice tests for their textbook."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "i1lrYuczMUMC",
+   "etag": "zXyDezClAEo",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/i1lrYuczMUMC",
+   "volumeInfo": {
+    "title": "ISBN - International Standard Book Number",
+    "subtitle": "bibliography ; literature on the ISBN and ISMN (International Standard Music Number) from all over the world",
+    "authors": [
+     " Walravens, Hartmut"
+    ],
+    "publisher": "Simon Bibliothekswissen",
+    "publishedDate": "2010",
+    "description": "Innovative ideas are never easily accepted. Due to the electronic revolution of the information supply new management tools and infrastructures were required. The as simple as brilliant tool the ISBN which assigns each book with a unique number has contributed vastly to the global book and information market.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9783940862211"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "3940862215"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 232,
+    "printType": "BOOK",
+    "categories": [
+     "Bibliography"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=i1lrYuczMUMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=i1lrYuczMUMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=i1lrYuczMUMC&printsec=frontcover&dq=isbn+isbn&hl=&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=i1lrYuczMUMC&dq=isbn+isbn&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/ISBN_International_Standard_Book_Number.html?hl=&id=i1lrYuczMUMC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=i1lrYuczMUMC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The as simple as brilliant tool the ISBN which assigns each book with a unique number has contributed vastly to the global book and information market."
+   }
+  }
+ ]
+}

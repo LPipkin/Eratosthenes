@@ -1,0 +1,568 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 92,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "vcfJjwEACAAJ",
+   "etag": "33BGaQsbWAg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/vcfJjwEACAAJ",
+   "volumeInfo": {
+    "title": "Freedom (TM)",
+    "authors": [
+     "Daniel Suarez"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2010-01-07",
+    "description": "In his phenomenal debut, Daemon, Daniel Suarez introduced a terrifying vision of an unstoppable computer program unleashed on our world bu a hi-tech wunderkind. But now, our world is Daemon's world- unless someone stops the program once and for all...",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781101184608"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1101184604"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 496,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 2,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.2.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=vcfJjwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=vcfJjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=vcfJjwEACAAJ&dq=isbn+9780525951575&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=vcfJjwEACAAJ&dq=isbn+9780525951575&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Freedom_TM.html?hl=&id=vcfJjwEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 9.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 9.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=vcfJjwEACAAJ&dq=isbn+9780525951575&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=vcfJjwEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Period.&quot;* *William O&#39;Brien, former director of cybersecurity and communications systems policy at the White House 2009 saw one of the most inventive techno-thriller debuts in decades as Daniel Suarez introduced his terrifying and ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "VpBpVt4cHmMC",
+   "etag": "X7uuyZFItJo",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/VpBpVt4cHmMC",
+   "volumeInfo": {
+    "title": "Daemon",
+    "authors": [
+     "Daniel Suarez"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2009-01",
+    "description": "After the premature death of Matthew Sobol, a legendary computer game designer, a daemon that he designed to dismantle society and bring about a new world order is activiated and it's up to an unlikely alliance to decipher Sobol's intricate plans and wres",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0525951113"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780525951117"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 448,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 24,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=VpBpVt4cHmMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=VpBpVt4cHmMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=VpBpVt4cHmMC&printsec=frontcover&dq=isbn+9780525951575&hl=&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=VpBpVt4cHmMC&dq=isbn+9780525951575&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Daemon.html?hl=&id=VpBpVt4cHmMC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=VpBpVt4cHmMC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "After the premature death of Matthew Sobol, a legendary computer game designer, a daemon that he designed to dismantle society and bring about a new world order is activiated and it&#39;s up to an unlikely alliance to decipher Sobol&#39;s intricate ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "S0DR9KZTrl4C",
+   "etag": "qEQvo/Ry0Xo",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/S0DR9KZTrl4C",
+   "volumeInfo": {
+    "title": "Last Poems",
+    "authors": [
+     "A. E. Housman"
+    ],
+    "publisher": "Leiserson Press",
+    "publishedDate": "2008-08",
+    "description": "Last Poems. Many of the earliest books, particularly those dating back to the 1900s and before, are now extremely scarce and increasingly expensive. We are republishing these classic works in affordable, high quality, modern editions, using the original text and artwork.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781443714457"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1443714453"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 80,
+    "printType": "BOOK",
+    "categories": [
+     "Poetry"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.2.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=S0DR9KZTrl4C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=S0DR9KZTrl4C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=S0DR9KZTrl4C&dq=isbn+9780525951575&hl=&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=S0DR9KZTrl4C&dq=isbn+9780525951575&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Last_Poems.html?hl=&id=S0DR9KZTrl4C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=S0DR9KZTrl4C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Last Poems. Many of the earliest books, particularly those dating back to the 1900s and before, are now extremely scarce and increasingly expensive."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "-MKgCM4Zaj8C",
+   "etag": "GQpyp/3JKvI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/-MKgCM4Zaj8C",
+   "volumeInfo": {
+    "title": "The Collected Poems of A. E. Housman",
+    "authors": [
+     "A. E. Housman"
+    ],
+    "publisher": "Macmillan",
+    "publishedDate": "1971-04-15",
+    "description": "Presents the texts, authorized in 1939, of the modern British writer's poems and classical translations, providing insight into his literary style and concerns",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0805005471"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780805005479"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 254,
+    "printType": "BOOK",
+    "categories": [
+     "Poetry"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 29,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=-MKgCM4Zaj8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=-MKgCM4Zaj8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=-MKgCM4Zaj8C&printsec=frontcover&dq=isbn+9780525951575&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=-MKgCM4Zaj8C&dq=isbn+9780525951575&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/The_Collected_Poems_of_A_E_Housman.html?hl=&id=-MKgCM4Zaj8C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=-MKgCM4Zaj8C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Presents the texts, authorized in 1939, of the modern British writer&#39;s poems and classical translations, providing insight into his literary style and concerns"
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "j1WZfzhwzaQC",
+   "etag": "jGq461Dp1Vo",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/j1WZfzhwzaQC",
+   "volumeInfo": {
+    "title": "Judas Unchained",
+    "authors": [
+     "Peter F. Hamilton"
+    ],
+    "publisher": "Del Rey",
+    "publishedDate": "2006-02-28",
+    "description": "Peter F. Hamilton’s superbly imagined, cunningly plotted interstellar adventures are conceived on a staggeringly epic scale and filled with fully realized human and alien characters as complex as they are engaging. No mere world builder, Hamilton creates entire universes–and he does so with irresistible flair and intelligence. His previous novel, the acclaimed Pandora’s Star, introduced the Intersolar Commonwealth, a star-spanning civilization of the twenty-fourth century. Robust, peaceful, and confident, the Commonwealth dispatched a ship to investigate the mystery of a disappearing star, only to inadvertently unleash a predatory alien species that turned on its liberators, striking hard, fast, and utterly without mercy. The Prime are the Commonwealth’s worst nightmare. Coexistence is impossible with the technologically advanced aliens, who are genetically hardwired to exterminate all other forms of life. Twenty-three planets have already fallen to the invaders, with casualties in the hundreds of millions. And no one knows when or where the genocidal Prime will strike next. Nor are the Prime the only threat. For more than a hundred years, a shadowy cult, the Guardians of Selfhood, has warned that an alien with mind-control abilities impossible to detect or resist–the Starflyer–has secretly infiltrated the Commonwealth. Branded as terrorists, the Guardians and their leader, Bradley Johansson, have been hunted by relentless investigator Paula Myo. But now evidence suggests that the Guardians were right all along, and that the Starflyer has placed agents in vital posts throughout the Commonwealth–agents who are now sabotaging the war effort. Is the Starflyer an ally of the Prime, or has it orchestrated a fight to the death between the two species for its own advantage? Caught between two deadly enemies, one a brutal invader striking from without, the other a remorseless cancer killing from within, the fractious Commonwealth must unite as never before. This will be humanity’s finest hour–or its last gasp. From the Hardcover edition.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0345490711"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780345490711"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 848,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 766,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.5.6.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=j1WZfzhwzaQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=j1WZfzhwzaQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=j1WZfzhwzaQC&printsec=frontcover&dq=isbn+9780525951575&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=j1WZfzhwzaQC&dq=isbn+9780525951575&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Judas_Unchained.html?hl=&id=j1WZfzhwzaQC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 8.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 8.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=j1WZfzhwzaQC&dq=isbn+9780525951575&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Judas_Unchained-sample-epub.acsm?id=j1WZfzhwzaQC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Judas_Unchained-sample-pdf.acsm?id=j1WZfzhwzaQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=j1WZfzhwzaQC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This will be humanity’s finest hour–or its last gasp. From the Hardcover edition."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "PfQpAAAAQBAJ",
+   "etag": "MB2tjNq/q7M",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/PfQpAAAAQBAJ",
+   "volumeInfo": {
+    "title": "Influx",
+    "authors": [
+     "Daniel Suarez"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2014-02-20",
+    "description": "What if our civilization is more advanced than we know? The New York Times bestselling author of Daemon—“the cyberthriller against which all others will be measured” (Publishers Weekly) —imagines a world in which decades of technological advances have been suppressed in an effort to prevent disruptive change. Are smartphones really humanity’s most significant innovation since the moon landings? Or can something else explain why the bold visions of the 20th century—fusion power, genetic enhancements, artificial intelligence, cures for common diseases, extended human life, and a host of other world-changing advances—have remained beyond our grasp? Why has the high-tech future that seemed imminent in the 1960s failed to arrive? Perhaps it did arrive…but only for a select few. Particle physicist Jon Grady is ecstatic when his team achieves what they’ve been working toward for years: a device that can reflect gravity. Their research will revolutionize the field of physics—the crowning achievement of a career. Grady expects widespread acclaim for his entire team. The Nobel Prize. Instead, his lab is locked down by a shadowy organization whose mission is to prevent at all costs the social upheaval sudden technological advances bring. This Bureau of Technology Control uses the advanced technologies they have harvested over the decades to fulfill their mission. They are living in our future. Presented with the opportunity to join the BTC and improve his own technology in secret, Grady resists, and is instead thrown into a nightmarish high-tech prison built to hold rebellious geniuses like himself. With so many great intellects confined together, can Grady and his fellow prisoners conceive of a way to usher humanity out of its artificial dark age? And can they hope to defeat an enemy who wields a technological advantage half a century in the making?",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780698148536"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0698148533"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 416,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 51,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.2.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=PfQpAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=PfQpAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=PfQpAAAAQBAJ&printsec=frontcover&dq=isbn+9780525951575&hl=&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=PfQpAAAAQBAJ&dq=isbn+9780525951575&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Influx.html?hl=&id=PfQpAAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 9.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 9.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=PfQpAAAAQBAJ&dq=isbn+9780525951575&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Influx-sample-epub.acsm?id=PfQpAAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=PfQpAAAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "What if our civilization is more advanced than we know?"
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "ZSCWY3soen4C",
+   "etag": "5uTg78Df8ws",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/ZSCWY3soen4C",
+   "volumeInfo": {
+    "title": "20 Questions about Youth & the Media",
+    "authors": [
+     "Sharon R. Mazzarella"
+    ],
+    "publisher": "Peter Lang",
+    "publishedDate": "2007-01-01",
+    "description": "Textbook",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0820463345"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780820463346"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 316,
+    "printType": "BOOK",
+    "categories": [
+     "Education"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.1.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=ZSCWY3soen4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=ZSCWY3soen4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=ZSCWY3soen4C&printsec=frontcover&dq=isbn+9780525951575&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=ZSCWY3soen4C&dq=isbn+9780525951575&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/20_Questions_about_Youth_the_Media.html?hl=&id=ZSCWY3soen4C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=ZSCWY3soen4C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Textbook"
+   }
+  }
+ ]
+}

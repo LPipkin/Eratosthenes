@@ -1,0 +1,918 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 356,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "0VWdBAAAQBAJ",
+   "etag": "sLkGGzHSfec",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/0VWdBAAAQBAJ",
+   "volumeInfo": {
+    "title": "Seveneves",
+    "subtitle": "A Novel",
+    "authors": [
+     "Neal Stephenson"
+    ],
+    "publisher": "Harper Collins",
+    "publishedDate": "2015-05-19",
+    "description": "From the #1 New York Times bestselling author of Anathem, Reamde, and Cryptonomicon comes an exciting and thought-provoking science fiction epic—a grand story of annihilation and survival spanning five thousand years What would happen if the world were ending? A catastrophic event renders the earth a ticking time bomb. In a feverish race against the inevitable, nations around the globe band together to devise an ambitious plan to ensure the survival of humanity far beyond our atmosphere, in outer space. But the complexities and unpredictability of human nature coupled with unforeseen challenges and dangers threaten the intrepid pioneers, until only a handful of survivors remains . . . Five thousand years later, their progeny—seven distinct races now three billion strong—embark on yet another audacious journey into the unknown . . . to an alien world utterly transformed by cataclysm and time: Earth. A writer of dazzling genius and imaginative vision, Neal Stephenson combines science, philosophy, technology, psychology, and literature in a magnificent work of speculative fiction that offers a portrait of a future that is both extraordinary and eerily recognizable. As he did in Anathem, Cryptonomicon, the Baroque Cycle, and Reamde, Stephenson explores some of our biggest ideas and perplexing challenges in a breathtaking saga that is daring, engrossing, and altogether brilliant.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780062190413"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0062190415"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 880,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.3.3.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=0VWdBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=0VWdBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=0VWdBAAAQBAJ&printsec=frontcover&dq=isbn+9780062190376&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=0VWdBAAAQBAJ&dq=isbn+9780062190376&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Seveneves.html?hl=&id=0VWdBAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 17.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 17.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=0VWdBAAAQBAJ&dq=isbn+9780062190376&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.799E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.799E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Seveneves-sample-epub.acsm?id=0VWdBAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=0VWdBAAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "A writer of dazzling genius and imaginative vision, Neal Stephenson combines science, philosophy, technology, psychology, and literature in a magnificent work of speculative fiction that offers a portrait of a future that is both ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "d4srBgAAQBAJ",
+   "etag": "0IQ6TTvnslQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/d4srBgAAQBAJ",
+   "volumeInfo": {
+    "title": "Buzz Books 2015: Spring/Summer",
+    "subtitle": "Exclusive Excerpts from 39 Top New Titles",
+    "publisher": "Publishers Lunch",
+    "publishedDate": "2015-01-23",
+    "description": "Our sixth Buzz Books edition evokes all the excitement of Winter Institute with substantial pre-publication excerpts from nearly 40 adult titles. Young adult excerpts from spring/summer titles can now be found in a separate volume. Enjoy access to the newest voices the publishing industry is broadcasting for the upcoming season as you discover breakout books from established authors, sparkling debuts from soon-to-become literary stars, and fascinating memoirs and inspirational nonfiction. Familiar names include Paolo Bacigalupi, Ian Caldwell, Dennis Lehane, Ann Packer, Matthew Pearl, and Neal Stephenson. From inside the book world itself, there’s Farrar, Straus and Giroux publisher Jonathan Galassi’s debut novel Muse, and former editor George Hodgman’s memoir Bettyville, about going home to care for his irascible mother. Iowa Writer’s Workshop graduate Leslie Parry (Church of Marvels), Erika Swyler (The Book of Speculation), J. Ryan Stradal (Kitchens of the Great Midwest), Christopher Robinson and Gavin Kovite (War Of The Encyclopaedists), and Jessica Knoll (Luckiest Girl Alive) are among our dozen new authors. Rounding out this generous sampler are books from well-known personalities including actor Maria Bello, TV host Mika Brzezinski, NPR/Weekend Edition’s Scott Simon, and even a novel from Hunter S. Thompson’s former assistant Cheryl Della Pietra. As always, there’s also a great preview from Publishers Lunch of more than 100 additional, noteworthy spring/summer books to have on your radar. Start reading books right now that are sure to show up on bestseller lists, win awards, and be chosen by booksellers as top picks. Then invite your reading friends and book groups to download their own free copy of the ebook from any major ebookstore or at buzz.publishersmarketplace.com.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780990835318"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0990835316"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 593,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.3.2.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=d4srBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=d4srBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=d4srBgAAQBAJ&pg=PT372&dq=isbn+9780062190376&hl=&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=d4srBgAAQBAJ&dq=isbn+9780062190376&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Buzz_Books_2015_Spring_Summer.html?hl=&id=d4srBgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 0.0,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 0.0,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=d4srBgAAQBAJ&dq=isbn+9780062190376&hl=&buy=&source=gbs_api"
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Buzz_Books_2015_Spring_Summer-sample-epub.acsm?id=d4srBgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Buzz_Books_2015_Spring_Summer-sample-pdf.acsm?id=d4srBgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=d4srBgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "He lives in Seattle, Washington. Imprint: William Morrow Print \u003cb\u003eISBN\u003c/b\u003e: \u003cbr\u003e\n\u003cb\u003e9780062190376\u003c/b\u003e Print price: $35.00 eBook ISBN: 9780062190413 eBook price: \u003cbr\u003e\n$27.99 Publication date: 5/19/15 NEW YORK TIMES BEST SELLING Author OF * \u003cbr\u003e\nBefore I."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "0VWdBAAAQBAJ",
+   "etag": "o/6xmwvC+x4",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/0VWdBAAAQBAJ",
+   "volumeInfo": {
+    "title": "Seveneves",
+    "subtitle": "A Novel",
+    "authors": [
+     "Neal Stephenson"
+    ],
+    "publisher": "Harper Collins",
+    "publishedDate": "2015-05-19",
+    "description": "From the #1 New York Times bestselling author of Anathem, Reamde, and Cryptonomicon comes an exciting and thought-provoking science fiction epic—a grand story of annihilation and survival spanning five thousand years What would happen if the world were ending? A catastrophic event renders the earth a ticking time bomb. In a feverish race against the inevitable, nations around the globe band together to devise an ambitious plan to ensure the survival of humanity far beyond our atmosphere, in outer space. But the complexities and unpredictability of human nature coupled with unforeseen challenges and dangers threaten the intrepid pioneers, until only a handful of survivors remains . . . Five thousand years later, their progeny—seven distinct races now three billion strong—embark on yet another audacious journey into the unknown . . . to an alien world utterly transformed by cataclysm and time: Earth. A writer of dazzling genius and imaginative vision, Neal Stephenson combines science, philosophy, technology, psychology, and literature in a magnificent work of speculative fiction that offers a portrait of a future that is both extraordinary and eerily recognizable. As he did in Anathem, Cryptonomicon, the Baroque Cycle, and Reamde, Stephenson explores some of our biggest ideas and perplexing challenges in a breathtaking saga that is daring, engrossing, and altogether brilliant.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780062190413"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0062190415"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 880,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.3.3.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=0VWdBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=0VWdBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=0VWdBAAAQBAJ&pg=PT435&dq=isbn+9780062190376&hl=&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=0VWdBAAAQBAJ&dq=isbn+9780062190376&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Seveneves.html?hl=&id=0VWdBAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 17.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 17.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=0VWdBAAAQBAJ&dq=isbn+9780062190376&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.799E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.799E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Seveneves-sample-epub.acsm?id=0VWdBAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=0VWdBAAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "... permission of HarperCollins ebooks. FIRST EDITION \u003cb\u003eISBN 9780062190376\u003c/b\u003e \u003cbr\u003e\nEPub Edition MAY 2015 ISBN 9780062190413 15 16 17 18 19 OV/RRD 10 9 8 7 \u003cbr\u003e\n6 5 4 3 2 1 About the Publisher Australia HarperCollins Publishers Australia Pty."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "0hhhCgAAQBAJ",
+   "etag": "llY1Z2bBaxQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/0hhhCgAAQBAJ",
+   "volumeInfo": {
+    "title": "Seveneves eBook Sampler - pages 3-108",
+    "subtitle": "A free excerpt from Seveneves by Neal Stephenson",
+    "authors": [
+     "Neal Stephenson"
+    ],
+    "publisher": "HarperCollins",
+    "publishedDate": "2015-09-29",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780062457783"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0062457780"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.2.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=0hhhCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=0hhhCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=0hhhCgAAQBAJ&pg=PT61&dq=isbn+9780062190376&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=0hhhCgAAQBAJ&dq=isbn+9780062190376&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Seveneves_eBook_Sampler_pages_3_108.html?hl=&id=0hhhCgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 0.0,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 0.0,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=0hhhCgAAQBAJ&dq=isbn+9780062190376&hl=&buy=&source=gbs_api"
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Seveneves_eBook_Sampler_pages_3_108-sample-epub.acsm?id=0hhhCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=0hhhCgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "... of HarperCollins ebooks. FIRST EDITION \u003cb\u003eISBN 9780062190376\u003c/b\u003e EPub Edition \u003cbr\u003e\nSEPTEMBER 2015 ISBN 9780062457783 15 16 17 18 19 OV/RRD 10 9 8 7 6 5 \u003cbr\u003e\n4 3 2 1 About the Publisher Australia HarperCollins Publishers Australia Pty."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "ZrNzAwAAQBAJ",
+   "etag": "bAAn8JlVCj8",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/ZrNzAwAAQBAJ",
+   "volumeInfo": {
+    "title": "The Three-Body Problem",
+    "authors": [
+     "Cixin Liu"
+    ],
+    "publisher": "Macmillan",
+    "publishedDate": "2014-11-11",
+    "description": "The Three-Body Problem is the first chance for English-speaking readers to experience this multiple award winning phenomenon from China's most beloved science fiction author, Liu Cixin. Set against the backdrop of China's Cultural Revolution, a secret military project sends signals into space to establish contact with aliens. An alien civilization on the brink of destruction captures the signal and plans to invade Earth. Meanwhile, on Earth, different camps start forming, planning to either welcome the superior beings and help them take over a world seen as corrupt, or to fight against the invasion. The result is a science fiction masterpiece of enormous scope and vision.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781466853447"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1466853441"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 400,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 38,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.5.3.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=ZrNzAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=ZrNzAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=ZrNzAwAAQBAJ&printsec=frontcover&dq=isbn+9780062190376&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=ZrNzAwAAQBAJ&dq=isbn+9780062190376&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/The_Three_Body_Problem.html?hl=&id=ZrNzAwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 12.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 12.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=ZrNzAwAAQBAJ&dq=isbn+9780062190376&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.299E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.299E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=ZrNzAwAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The Three-Body Problem is the first chance for English-speaking readers to experience this multiple award winning phenomenon from China&#39;s most beloved science fiction author, Liu Cixin."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "OKN-BAAAQBAJ",
+   "etag": "piRHzciqWME",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/OKN-BAAAQBAJ",
+   "volumeInfo": {
+    "title": "The Fire Sermon",
+    "authors": [
+     "Francesca Haig"
+    ],
+    "publisher": "Simon and Schuster",
+    "publishedDate": "2015-03-10",
+    "description": "The Hunger Games meets Cormac McCarthy’s The Road in this richly imagined first novel in a new post-apocalyptic trilogy by award-winning poet Francesca Haig. Four hundred years in the future, the Earth has turned primitive following a nuclear fire that has laid waste to civilization and nature. Though the radiation fallout has ended, for some unknowable reason every person is born with a twin. Of each pair, one is an Alpha—physically perfect in every way; and the other an Omega—burdened with deformity, small or large. With the Council ruling an apartheid-like society, Omegas are branded and ostracized while the Alphas have gathered the world’s sparse resources for themselves. Though proclaiming their superiority, for all their effort Alphas cannot escape one harsh fact: Whenever one twin dies, so does the other. Cass is a rare Omega, one burdened with psychic foresight. While her twin, Zach, gains power on the Alpha Council, she dares to dream the most dangerous dream of all: equality. For daring to envision a world in which Alphas and Omegas live side-by-side as equals, both the Council and the Resistance have her in their sights.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781476767246"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1476767246"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 384,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 27,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.1.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=OKN-BAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=OKN-BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=OKN-BAAAQBAJ&printsec=frontcover&dq=isbn+9780062190376&hl=&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=OKN-BAAAQBAJ&dq=isbn+9780062190376&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/The_Fire_Sermon.html?hl=&id=OKN-BAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=OKN-BAAAQBAJ&dq=isbn+9780062190376&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/The_Fire_Sermon-sample-epub.acsm?id=OKN-BAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=OKN-BAAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The Hunger Games meets Cormac McCarthy’s The Road in this richly imagined first novel in a new post-apocalyptic trilogy by award-winning poet Francesca Haig."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "dwAwSzmTHNEC",
+   "etag": "8EbZMe2OqJ0",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/dwAwSzmTHNEC",
+   "volumeInfo": {
+    "title": "Cryptonomicon",
+    "authors": [
+     "Neal Stephenson"
+    ],
+    "publisher": "Harper Collins",
+    "publishedDate": "2009-03-17",
+    "description": "With this extraordinary first volume in what promises to be an epoch-making masterpiece, Neal Stephenson hacks into the secret histories of nations and the private obsessions of men, decrypting with dazzling virtuosity the forces that shaped this century. As an added bonus, the e-book edition of this New York Times bestseller includes an excerpt from Stephenson's new novel, Seveneves. In 1942, Lawrence Pritchard Waterhouse—mathematical genius and young Captain in the U.S. Navy—is assigned to detachment 2702. It is an outfit so secret that only a handful of people know it exists, and some of those people have names like Churchill and Roosevelt. The mission of Waterhouse and Detachment 2702—commanded by Marine Raider Bobby Shaftoe-is to keep the Nazis ignorant of the fact that Allied Intelligence has cracked the enemy's fabled Enigma code. It is a game, a cryptographic chess match between Waterhouse and his German counterpart, translated into action by the gung-ho Shaftoe and his forces. Fast-forward to the present, where Waterhouse's crypto-hacker grandson, Randy, is attempting to create a \"data haven\" in Southeast Asia—a place where encrypted data can be stored and exchanged free of repression and scrutiny. As governments and multinationals attack the endeavor, Randy joins forces with Shaftoe's tough-as-nails granddaughter, Amy, to secretly salvage a sunken Nazi submarine that holds the key to keeping the dream of a data haven afloat. But soon their scheme brings to light a massive conspiracy with its roots in Detachment 2702 linked to an unbreakable Nazi code called Arethusa. And it will represent the path to unimaginable riches and a future of personal and digital liberty...or to universal totalitarianism reborn. A breathtaking tour de force, and Neal Stephenson's most accomplished and affecting work to date, Cryptonomicon is profound and prophetic, hypnotic and hyper-driven, as it leaps forward and back between World War II and the World Wide Web, hinting all the while at a dark day-after-tomorrow. It is a work of great art, thought and creative daring; the product of a truly iconoclastic imagination working with white-hot intensity.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780061792571"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0061792578"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 1168,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 3756,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "3.12.12.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=dwAwSzmTHNEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=dwAwSzmTHNEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=dwAwSzmTHNEC&printsec=frontcover&dq=isbn+9780062190376&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=dwAwSzmTHNEC&dq=isbn+9780062190376&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Cryptonomicon.html?hl=&id=dwAwSzmTHNEC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 7.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 7.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=dwAwSzmTHNEC&dq=isbn+9780062190376&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 7990000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 7990000.0,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Cryptonomicon-sample-epub.acsm?id=dwAwSzmTHNEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=dwAwSzmTHNEC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "With this extraordinary first volume in what promises to be an epoch-making masterpiece, Neal Stephenson hacks into the secret histories of nations and the private obsessions of men, decrypting with dazzling virtuosity the forces that ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "3D-ApB1cvX8C",
+   "etag": "PEga74t5Gok",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/3D-ApB1cvX8C",
+   "volumeInfo": {
+    "title": "Mr. Penumbra's 24-Hour Bookstore",
+    "subtitle": "A Novel",
+    "authors": [
+     "Robin Sloan"
+    ],
+    "publisher": "Macmillan",
+    "publishedDate": "2012-10-02",
+    "description": "A gleeful and exhilarating tale of global conspiracy, complex code-breaking, high-tech data visualization, young love, rollicking adventure, and the secret to eternal life—mostly set in a hole-in-the-wall San Francisco bookstore The Great Recession has shuffled Clay Jannon out of his life as a San Francisco Web-design drone—and serendipity, sheer curiosity, and the ability to climb a ladder like a monkey has landed him a new gig working the night shift at Mr. Penumbra's 24-Hour Bookstore. But after just a few days on the job, Clay begins to realize that this store is even more curious than the name suggests. There are only a few customers, but they come in repeatedly and never seem to actually buy anything, instead \"checking out\" impossibly obscure volumes from strange corners of the store, all according to some elaborate, long-standing arrangement with the gnomic Mr. Penumbra. The store must be a front for something larger, Clay concludes, and soon he's embarked on a complex analysis of the customers' behavior and roped his friends into helping to figure out just what's going on. But once they bring their findings to Mr. Penumbra, it turns out the secrets extend far outside the walls of the bookstore. With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the twenty-first century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or a young Umberto Eco, but with a unique and feisty sensibility that's rare to the world of literary fiction. Mr. Penumbra's 24-Hour Bookstore is exactly what it sounds like: an establishment you have to enter and will never want to leave, a modern-day cabinet of wonders ready to give a jolt of energy to every curious reader, no matter the time of day.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780374708832"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0374708835"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 304,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 62,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "4.9.9.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=3D-ApB1cvX8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=3D-ApB1cvX8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=3D-ApB1cvX8C&printsec=frontcover&dq=isbn+9780062190376&hl=&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=3D-ApB1cvX8C&dq=isbn+9780062190376&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Mr_Penumbra_s_24_Hour_Bookstore.html?hl=&id=3D-ApB1cvX8C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 5.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 5.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=3D-ApB1cvX8C&dq=isbn+9780062190376&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Mr_Penumbra_s_24_Hour_Bookstore-sample-epub.acsm?id=3D-ApB1cvX8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=3D-ApB1cvX8C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "With irresistible brio and dazzling intelligence, Robin Sloan has crafted a literary adventure story for the twenty-first century, evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "UA0bBQAAQBAJ",
+   "etag": "klqb5RrI4MY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/UA0bBQAAQBAJ",
+   "volumeInfo": {
+    "title": "Jacksonland",
+    "subtitle": "President Andrew Jackson, Cherokee Chief John Ross, and a Great American Land Grab",
+    "authors": [
+     "Steve Inskeep"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2015-05-19",
+    "description": "Jacksonland is the thrilling narrative history of two men—President Andrew Jackson and Cherokee chief John Ross—who led their respective nations at a crossroads of American history. Five decades after the Revolutionary War, the United States approached a constitutional crisis. At its center stood two former military comrades locked in a struggle that tested the boundaries of our fledgling democracy. Jacksonland is their story. One man we recognize: Andrew Jackson—war hero, populist, and exemplar of the expanding South—whose first major initiative as president instigated the massive expulsion of Native Americans known as the Trail of Tears. The other is a half-forgotten figure: John Ross—a mixed-race Cherokee politician and diplomat—who used the United States’ own legal system and democratic ideals to oppose Jackson. Representing one of the Five Civilized Tribes who had adopted the ways of white settlers—cultivating farms, publishing a newspaper in their own language, and sending children to school—Ross championed the tribes’ cause all the way to the Supreme Court. He gained allies like Senator Henry Clay, Chief Justice John Marshall, and even Davy Crockett. In a fight that seems at once distant and familiar, Ross and his allies made their case in the media, committed civil disobedience, and benefited from the first mass political action by American women. Their struggle contained ominous overtures of later events like the Civil War and set the pattern for modern-day politics. At stake in this struggle was the land of the Five Civilized Tribes. In shocking detail, Jacksonland reveals how Jackson, as a general, extracted immense wealth from his own armies’ conquest of native lands. Later, as president, Jackson set in motion the seizure of tens of millions of acres—“Jacksonland”—in today’s Deep South. Jacksonland is the work of renowned journalist Steve Inskeep, cohost of NPR’s Morning Edition, who offers here a heart-stopping narrative masterpiece, a tragedy of American history that feels ripped from the headlines in its immediacy, drama, and relevance to our lives. Harrowing, inspiring, and deeply moving, Inskeep’s Jacksonland is the story of America at a moment of transition, when the fate of states and nations was decided by the actions of two heroic yet tragically opposed men. CANDICE MILLARD, author of Destiny of the Republic and The River of Doubt “Inskeep tells this, one of the most tragic and transformative stories in American history, in swift, confident, colorful strokes. So well, and so intimately, does he know his subject that the reader comes away feeling as if Jackson and Ross’s epic struggle for the future of their nations took place yesterday rather than nearly two hundred years ago.” From the Hardcover edition.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781101617779"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1101617772"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 480,
+    "printType": "BOOK",
+    "categories": [
+     "History"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 63,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.2.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=UA0bBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=UA0bBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=UA0bBQAAQBAJ&printsec=frontcover&dq=isbn+9780062190376&hl=&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=UA0bBQAAQBAJ&dq=isbn+9780062190376&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Jacksonland.html?hl=&id=UA0bBQAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 14.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 14.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=UA0bBQAAQBAJ&dq=isbn+9780062190376&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.499E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.499E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Jacksonland-sample-epub.acsm?id=UA0bBQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=UA0bBQAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Jacksonland is the work of renowned journalist Steve Inskeep, cohost of NPR’s Morning Edition, who offers here a heart-stopping narrative masterpiece, a tragedy of American history that feels ripped from the headlines in its immediacy, ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "K8PQBAAAQBAJ",
+   "etag": "V6suowcZMmo",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/K8PQBAAAQBAJ",
+   "volumeInfo": {
+    "title": "Piranha",
+    "authors": [
+     "Clive Cussler",
+     "Boyd Morrison"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2015-05-26",
+    "description": "Juan Cabrillo and the crew of the Oregon return in the extraordinary new novel in the #1 New York Times–bestselling series by the grand master of adventure. In 1902, the volcano Mt. Pelée erupts on the island of Martinique, wiping out an entire city of thirty thousand—and sinking a ship carrying a German scientist on the verge of an astonishing breakthrough. More than a century later, Juan Cabrillo will have to deal with that scientist’s legacy. During a covert operation, Cabrillo and the crew meticulously fake the sinking of the Oregon—but when an unknown adversary tracks them down despite their planning and attempts to assassinate them, Cabrillo and his team struggle to fight back against an enemy who seems to be able to anticipate their every move. They discover that a traitorous American weapons designer has completed the German scientist’s work, and now wields extraordinary power, sending the Oregon on a race against time to stop an attack that could lead to one man ruling over the largest empire the world has ever known.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780698140769"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0698140761"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 432,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 50,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.2.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=K8PQBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=K8PQBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=K8PQBAAAQBAJ&printsec=frontcover&dq=isbn+9780062190376&hl=&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=K8PQBAAAQBAJ&dq=isbn+9780062190376&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Piranha.html?hl=&id=K8PQBAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 14.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 14.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=K8PQBAAAQBAJ&dq=isbn+9780062190376&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.499E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.499E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Piranha-sample-epub.acsm?id=K8PQBAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=K8PQBAAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Juan Cabrillo and the crew of the Oregon return in the extraordinary new novel in the #1 New York Times–bestselling series by the grand master of adventure."
+   }
+  }
+ ]
+}

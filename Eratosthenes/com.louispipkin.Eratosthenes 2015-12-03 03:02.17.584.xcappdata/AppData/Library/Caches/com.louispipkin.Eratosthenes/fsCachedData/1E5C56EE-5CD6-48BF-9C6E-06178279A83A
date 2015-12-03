@@ -1,0 +1,789 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 460,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "-4Q_AQAAIAAJ",
+   "etag": "xr79kcgkwhw",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/-4Q_AQAAIAAJ",
+   "volumeInfo": {
+    "title": "Compilers",
+    "subtitle": "Principles, Techniques, and Tools",
+    "authors": [
+     "Alfred V. Aho",
+     "Ravi Sethi"
+    ],
+    "publisher": "Addison-Wesley",
+    "publishedDate": "1986",
+    "description": "This book provides the foundation for understanding the theory and pracitce of compilers. Revised and updated, it reflects the current state of compilation. Every chapter has been completely revised to reflect developments in software engineering, programming languages, and computer architecture that have occurred since 1986, when the last edition published.& The authors, recognizing that few readers will ever go on to construct a compiler, retain their focus on the broader set of problems faced in software design and software development. Computer scientists, developers, & and aspiring students that want to learn how to build, maintain, and execute a compiler for a major programming language.",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "UCSD:31822033559345"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 796,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 33,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=-4Q_AQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=-4Q_AQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=-4Q_AQAAIAAJ&q=isbn+9780201100884&dq=isbn+9780201100884&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=-4Q_AQAAIAAJ&dq=isbn+9780201100884&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Compilers.html?hl=&id=-4Q_AQAAIAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=-4Q_AQAAIAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book provides the foundation for understanding the theory and pracitce of compilers."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "25FQAAAAMAAJ",
+   "etag": "KG3jcgXIsoU",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/25FQAAAAMAAJ",
+   "volumeInfo": {
+    "title": "Principles of Compiler Design",
+    "authors": [
+     "ALFRED V AUTOR AHO",
+     "JEFFREY D AUTOR ULLMAN"
+    ],
+    "publisher": "Addison-Wesley",
+    "publishedDate": "1977",
+    "description": "Introduction to compilers; Programming languages; Finite automata and lexical analysis; The syntatic specification of programming languages; Basic parsing techniques; Automatic construction of efficient parsers; Syntax-directed translation; More about translation; Sumbol tables; Run-time storage administration; Error detection and recovery; Introduction to code optimization; More about loop optimization; More about data-flow analysis; Code generation.",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "UOM:39015000463284"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 604,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 3,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.1.0.preview.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=25FQAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=25FQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=25FQAAAAMAAJ&q=isbn+9780201100884&dq=isbn+9780201100884&hl=&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=25FQAAAAMAAJ&dq=isbn+9780201100884&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Principles_of_Compiler_Design.html?hl=&id=25FQAAAAMAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=25FQAAAAMAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Introduction to compilers; Programming languages; Finite automata and lexical analysis; The syntatic specification of programming languages; Basic parsing techniques; Automatic construction of efficient parsers; Syntax-directed translation; ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "4ZlQAAAAMAAJ",
+   "etag": "zLIHORUuXCc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/4ZlQAAAAMAAJ",
+   "volumeInfo": {
+    "title": "Programming Languages",
+    "subtitle": "Concepts and Constructs",
+    "authors": [
+     "Ravi Sethi"
+    ],
+    "publisher": "Addison Wesley",
+    "publishedDate": "1996",
+    "description": "The charm of functional languages is illustrated by programs in Standard ML and the Scheme dialect of Lisp. Logic programming is introduced using Prolog.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0201590654"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780201590654"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 640,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 2,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.1.0.preview.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=4ZlQAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=4ZlQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=4ZlQAAAAMAAJ&q=isbn+9780201100884&dq=isbn+9780201100884&hl=&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=4ZlQAAAAMAAJ&dq=isbn+9780201100884&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Programming_Languages.html?hl=&id=4ZlQAAAAMAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=4ZlQAAAAMAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The charm of functional languages is illustrated by programs in Standard ML and the Scheme dialect of Lisp. Logic programming is introduced using Prolog."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "yHJhQgAACAAJ",
+   "etag": "DUG3I8Hkmx8",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/yHJhQgAACAAJ",
+   "volumeInfo": {
+    "title": "Introduction to Compiler Construction",
+    "authors": [
+     "Thomas W. Parsons"
+    ],
+    "publisher": "W. H. Freeman",
+    "publishedDate": "1992-03-15",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0716782618"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780716782612"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 359,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=yHJhQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=yHJhQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=yHJhQgAACAAJ&dq=isbn+9780201100884&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=yHJhQgAACAAJ&dq=isbn+9780201100884&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Introduction_to_Compiler_Construction.html?hl=&id=yHJhQgAACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=yHJhQgAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "mShXzzKtpmEC",
+   "etag": "bu34TinrVGg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/mShXzzKtpmEC",
+   "volumeInfo": {
+    "title": "Hackers",
+    "subtitle": "Heroes of the Computer Revolution - 25th Anniversary Edition",
+    "authors": [
+     "Steven Levy"
+    ],
+    "publisher": "\"O'Reilly Media, Inc.\"",
+    "publishedDate": "2010-05-19",
+    "description": "This 25th anniversary edition of Steven Levy's classic book traces the exploits of the computer revolution's original hackers -- those brilliant and eccentric nerds from the late 1950s through the early '80s who took risks, bent the rules, and pushed the world in a radical new direction. With updated material from noteworthy hackers such as Bill Gates, Mark Zuckerberg, Richard Stallman, and Steve Wozniak, Hackers is a fascinating story that begins in early computer research labs and leads to the first home computers. Levy profiles the imaginative brainiacs who found clever and unorthodox solutions to computer engineering problems. They had a shared sense of values, known as \"the hacker ethic,\" that still thrives today. Hackers captures a seminal period in recent history when underground activities blazed a trail for today's digital world, from MIT students finagling access to clunky computer-card machines to the DIY culture that spawned the Altair and the Apple II.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781449393748"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1449393748"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 520,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 217,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.4.2.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=mShXzzKtpmEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=mShXzzKtpmEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=mShXzzKtpmEC&printsec=frontcover&dq=isbn+9780201100884&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=mShXzzKtpmEC&dq=isbn+9780201100884&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Hackers.html?hl=&id=mShXzzKtpmEC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 17.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 14.39,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=mShXzzKtpmEC&dq=isbn+9780201100884&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.799E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.439E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=mShXzzKtpmEC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This 25th anniversary edition of Steven Levy&#39;s classic book traces the exploits of the computer revolution&#39;s original hackers -- those brilliant and eccentric nerds from the late 1950s through the early &#39;80s who took risks, bent the rules, ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "VkLKhpAXzrsC",
+   "etag": "8yE5CrZ9F58",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/VkLKhpAXzrsC",
+   "volumeInfo": {
+    "title": "COMPILERS PRINCIPLES TECHNIQUES AND TOOLS",
+    "publisher": "Pearson Education India",
+    "publishedDate": "1999",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "8131759024"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9788131759028"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 796,
+    "printType": "BOOK",
+    "averageRating": 4.0,
+    "ratingsCount": 36,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=VkLKhpAXzrsC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=VkLKhpAXzrsC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=VkLKhpAXzrsC&dq=isbn+9780201100884&hl=&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=VkLKhpAXzrsC&dq=isbn+9780201100884&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/COMPILERS_PRINCIPLES_TECHNIQUES_AND_TOOL.html?hl=&id=VkLKhpAXzrsC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=VkLKhpAXzrsC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "GBISkhhrHh8C",
+   "etag": "3zd30U/VFQ0",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/GBISkhhrHh8C",
+   "volumeInfo": {
+    "title": "Programming Language Pragmatics",
+    "authors": [
+     "Michael L. Scott"
+    ],
+    "publisher": "Morgan Kaufmann",
+    "publishedDate": "2009-03-23",
+    "description": "Programming Language Pragmatics is the most comprehensive programming language textbook available today. Taking the perspective that language design and language implementation are tightly interconnected, and that neither can be fully understood in isolation, this critically acclaimed and bestselling book has been thoroughly updated to cover the most recent developments in programming language design. With a new chapter on run-time program management and expanded coverage of concurrency, this new edition provides both students and professionals alike with a solid understanding of the most important issues driving software development today. Classic programming foundations text now updated to familiarize students with the languages they are most likely to encounter in the workforce, including including Java 7, C++, C# 3.0, F#, Fortran 2008, Ada 2005, Scheme R6RS, and Perl 6. New and expanded coverage of concurrency and run-time systems ensures students and professionals understand the most important advances driving software today. Includes over 800 numbered examples to help the reader quickly cross-reference and access content.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780080922997"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0080922996"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 944,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 8,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "2.9.4.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=GBISkhhrHh8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=GBISkhhrHh8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=GBISkhhrHh8C&printsec=frontcover&dq=isbn+9780201100884&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=GBISkhhrHh8C&dq=isbn+9780201100884&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Programming_Language_Pragmatics.html?hl=&id=GBISkhhrHh8C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE_AND_RENTAL",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 77.95,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 38.0,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=GBISkhhrHh8C&dq=isbn+9780201100884&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 7.795E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.8E7,
+       "currencyCode": "USD"
+      }
+     },
+     {
+      "finskyOfferType": 3,
+      "listPrice": {
+       "amountInMicros": 5.067E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 3.42E7,
+       "currencyCode": "USD"
+      },
+      "rentalDuration": {
+       "unit": "DAY",
+       "count": 180.0
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Programming_Language_Pragmatics-sample-epub.acsm?id=GBISkhhrHh8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Programming_Language_Pragmatics-sample-pdf.acsm?id=GBISkhhrHh8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=GBISkhhrHh8C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "With a new chapter on run-time program management and expanded coverage of concurrency, this new edition provides both students and professionals alike with a solid understanding of the most important issues driving software development ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "xgjHgtL28CAC",
+   "etag": "RfuHpWGazYU",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/xgjHgtL28CAC",
+   "volumeInfo": {
+    "title": "Hacker Culture",
+    "authors": [
+     "Douglas Thomas"
+    ],
+    "publisher": "U of Minnesota Press",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1452904286"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781452904283"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "printType": "BOOK",
+    "averageRating": 4.0,
+    "ratingsCount": 5,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.0.3.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=xgjHgtL28CAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=xgjHgtL28CAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=xgjHgtL28CAC&printsec=frontcover&dq=isbn+9780201100884&hl=&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=xgjHgtL28CAC&dq=isbn+9780201100884&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Hacker_Culture.html?hl=&id=xgjHgtL28CAC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE_AND_RENTAL",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 22.5,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 13.5,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=xgjHgtL28CAC&dq=isbn+9780201100884&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.25E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.35E7,
+       "currencyCode": "USD"
+      }
+     },
+     {
+      "finskyOfferType": 3,
+      "listPrice": {
+       "amountInMicros": 6750000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 5940000.0,
+       "currencyCode": "USD"
+      },
+      "rentalDuration": {
+       "unit": "DAY",
+       "count": 90.0
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Hacker_Culture-sample-epub.acsm?id=xgjHgtL28CAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Hacker_Culture-sample-pdf.acsm?id=xgjHgtL28CAC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=xgjHgtL28CAC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "0X54fSKq7bkC",
+   "etag": "kkSMmKaGP6Y",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/0X54fSKq7bkC",
+   "volumeInfo": {
+    "title": "产品设计",
+    "subtitle": "反求工程和新产品开发技术",
+    "authors": [
+     "K.N.·奥托 (美)",
+     "伍德 (美)"
+    ],
+    "publisher": "清华大学出版社有限公司",
+    "publishedDate": "2003",
+    "description": "责任者译名:奥托。",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "7302070482"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9787302070481"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 1065,
+    "printType": "BOOK",
+    "categories": [
+     "Design, Industrial"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=0X54fSKq7bkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=0X54fSKq7bkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "zh-CN",
+    "previewLink": "http://books.google.com/books?id=0X54fSKq7bkC&printsec=frontcover&dq=isbn+9780201100884&hl=&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=0X54fSKq7bkC&dq=isbn+9780201100884&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1.html?hl=&id=0X54fSKq7bkC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=0X54fSKq7bkC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "责任者译名:奥托。"
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "JNnQ8r5merMC",
+   "etag": "OfJjYoueHUc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/JNnQ8r5merMC",
+   "volumeInfo": {
+    "title": "CNC Programming Handbook",
+    "subtitle": "A Comprehensive Guide to Practical CNC Programming",
+    "authors": [
+     "Peter Smid"
+    ],
+    "publisher": "Industrial Press Inc.",
+    "publishedDate": "2003",
+    "description": "Extraordinarily comprehensive, this popular and authoritative reference covers just about every possible subject a typical CNC programmer may encounter on a daily basis. Fully indexed to help the user quickly locate topics of interest, this “industrial strength” handbook presents most common programming subjects in great depth and is equally applicable to both CNC milling and CNC turning operations. Many advanced subjects are also covered, thus making this an unusually comprehensive reference for machinists, programmers, engineers, and supervisors. Filled with over one thousand illustrations, tables, formulas, tips, shortcuts, and practical examples, this widely respected publication is structured in a logical order that is readily adaptable to virtually all levels of CNC training, from the basic to the advanced. CNC Programming Handbook has just become more valuable than ever! A new CD-ROM, packed with actual problem-solving projects and enhancing the material presented in the book, is included for the first time. Users will find programming projects and exercises for most chapters, special programming and machining projects, solutions to problems, and numerous reference files useful in CNC programming, as well as several utilities. With the majority of files in Adobe PDF, instructors will be able to quickly and easily print and distribute any of the projects, exercises, and references to their classes. Meanwhile, students and professionals will find this CD an effective self-study aid that allows them to enhance their understanding of the subject one topic at a time. Presents complete information on various programming techniques, from the basic areas to dozens of advanced concepts. Includes more than 1,000 illustrations, tables, formulas, tips, shortcuts and real-world examples. Offers unparalleled reference material useful for skills training at all levels of CNC. Presents an encyclopedic, logically organized approach to CNC programming, allowing the reader to look up a subject of interest only. Uses cross references throughout to guide the reader to the proper answer or solution to a problem.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0831131586"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780831131586"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 508,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 16,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=JNnQ8r5merMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=JNnQ8r5merMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=JNnQ8r5merMC&printsec=frontcover&dq=isbn+9780201100884&hl=&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=JNnQ8r5merMC&dq=isbn+9780201100884&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/CNC_Programming_Handbook.html?hl=&id=JNnQ8r5merMC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=JNnQ8r5merMC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "CNC Programming Handbook has just become more valuable than ever! A new CD-ROM, packed with actual problem-solving projects and enhancing the material presented in the book, is included for the first time."
+   }
+  }
+ ]
+}
