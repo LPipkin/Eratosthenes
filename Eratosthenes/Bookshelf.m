@@ -31,17 +31,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSLog(@"In viewdidload");
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-//    self.navigationItem.backBarButtonItem =
-//    [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
-//    self.navigationItem.rightBarButtonItem = self.editButtonItem;
-//    self.row = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"No\""];
+    self.navigationItem.backBarButtonItem =
+    [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.row = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"No\""];
     
     
 }
@@ -49,11 +49,13 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    
-    self.navigationItem.backBarButtonItem =
-    [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStylePlain target:nil action:nil];
-    self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    self.row = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"No\""];
+    NSLog(@"In viewdidappear");
+    //[self.tableView reloadData];
+    NSLog(@"%@", self.row);
+//    self.navigationItem.backBarButtonItem =
+//    [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStylePlain target:nil action:nil];
+//    self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //self.row = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"No\""];
 
 }
 
@@ -65,26 +67,20 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return self.row.count;
+    NSLog(@"In numberOfSectionsInTableView: %lu", (unsigned long)self.row.count);
+    return 1;//self.row.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    NSLog(@"In tableview: %lu", (unsigned long)self.row.count);
     return self.row.count;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
     // Configure the cell...
-    static NSString *tableIdentifier = @"BookCell1";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:tableIdentifier];
-    
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tableIdentifier];
-    }
-    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"BookCell1" forIndexPath:indexPath];
+    NSLog(@"In cell initialization");
     NSDictionary *novel = [self.row objectAtIndex:indexPath.row];
     NSString *tmp = [NSString stringWithFormat:@"%@ - %@", [novel objectForKey:@"author"], [novel objectForKey:@"title"]];
     cell.textLabel.text = tmp;
@@ -108,11 +104,12 @@
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source
-        [tableView beginUpdates];
         [self.shelf deleteWithDictionary:[self.row objectAtIndex:indexPath.row]];
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-        [tableView endUpdates];
+        [tableView beginUpdates];
         [tableView reloadData];
+        //[tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        [tableView endUpdates];
+        //[tableView reloadData];
     }
 }
 
