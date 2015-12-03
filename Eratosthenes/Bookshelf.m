@@ -11,15 +11,13 @@
 @interface Bookshelf ()
 
 @property (nonatomic, strong) Librarian *shelf;
-@property (nonatomic, strong) NSArray *row;
-
-- (id)objectAtIndexedSubscript: (NSUInteger)index;
+@property (nonatomic, strong) NSMutableArray *tableDataSource;
 
 @end
 
 @implementation Bookshelf
 
-@synthesize row = _row;
+@synthesize tableDataSource = _tableDataSource;
 @synthesize shelf = _shelf;
 
 -(Librarian *)shelf{
@@ -37,12 +35,12 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
     self.navigationItem.backBarButtonItem =
     [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    self.row = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"No\""];
     
+    self.tableDataSource = nil;
+    self.tableDataSource = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"No\""];
     
 }
 
@@ -50,14 +48,15 @@
 {
     [super viewDidAppear:animated];
     NSLog(@"In viewdidappear");
-    //[self.tableView reloadData];
-    NSLog(@"%@", self.row);
-//    self.navigationItem.backBarButtonItem =
-//    [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStylePlain target:nil action:nil];
-//    self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    //self.row = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"No\""];
-
+    //self.navigationItem.backBarButtonItem =
+    //[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    [self.tableView reloadData];
+    NSLog(@"%@", self.tableDataSource);
+    //self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //self.tableDataSource = [self.shelf getRecords:[self.shelf getDbFilePath] where:@"reading = \"Yes\""];
+    
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -67,13 +66,13 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    NSLog(@"In numberOfSectionsInTableView: %lu", (unsigned long)self.row.count);
-    return 1;//self.row.count;
+    NSLog(@"In numberOfSectionsInTableView: %lu", (unsigned long)self.tableDataSource.count);
+    return 1;//self.tableDataSource.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    NSLog(@"In tableview: %lu", (unsigned long)self.row.count);
-    return self.row.count;
+    NSLog(@"In tableview: %lu", (unsigned long)self.tableDataSource.count);
+    return self.tableDataSource.count;
 }
 
 
@@ -81,7 +80,7 @@
     // Configure the cell...
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"BookCell1" forIndexPath:indexPath];
     NSLog(@"In cell initialization");
-    NSDictionary *novel = [self.row objectAtIndex:indexPath.row];
+    NSDictionary *novel = [self.tableDataSource objectAtIndex:indexPath.row];
     NSString *tmp = [NSString stringWithFormat:@"%@ - %@", [novel objectForKey:@"author"], [novel objectForKey:@"title"]];
     cell.textLabel.text = tmp;
     return cell;
@@ -89,44 +88,36 @@
 
 
 /*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-- (id) objectAtIndexedSubscript:(NSUInteger)index{
-    return [self.row objectAtIndex:index];
-}
+ // Override to support conditional editing of the table view.
+ - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+ // Return NO if you do not want the specified item to be editable.
+ return YES;
+ }
+ */
 
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source
-        [self.shelf deleteWithDictionary:[self.row objectAtIndex:indexPath.row]];
-        [tableView beginUpdates];
-        [tableView reloadData];
-        //[tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-        [tableView endUpdates];
-        //[tableView reloadData];
+        [self.shelf deleteWithDictionary:[self.tableDataSource objectAtIndex:indexPath.row]];
+        [self.tableDataSource removeObjectAtIndex:indexPath.row];
+        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }
 }
 
+/*
+ // Override to support rearranging the table view.
+ - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
+ }
+ */
 
 /*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
+ // Override to support conditional rearranging of the table view.
+ - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
+ // Return NO if you do not want the item to be re-orderable.
+ return YES;
+ }
+ */
 
 
 #pragma mark - Navigation
@@ -138,9 +129,10 @@
     if ([segue.identifier isEqualToString:@"showBookDetail"]) {
         NSIndexPath *indexPath = self.shelfTable.indexPathForSelectedRow;
         BookshelfDetails *destViewController = segue.destinationViewController;
-        destViewController.novel = [self.row objectAtIndex:indexPath.row];
+        destViewController.novel = [self.tableDataSource objectAtIndex:indexPath.row];
     }
 }
+
 
 
 @end
